@@ -1,0 +1,915 @@
+name,description,content,product_category_id,images
+Inductive Couple Plasma,"<em>Inductive Couple Plasma </em>(ICP) merupakan instrumen analitik yang digunakan untuk mendeteksi senyawa-senyawa logam dengan pembakaran menggunakan plasma.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.03-006","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Agilent 700 Series ICP OES</li>
+\n 	<li>Gas control terdiri dari:
+\n<ul>
+\n 	<li>Plasma gas 0–22.5 L/min in 1.5 L/min increments</li>
+\n 	<li><em>Auxiliary</em> gas 0–2.25 L/min in 0.75 L/min increments</li>
+\n</ul>
+\n</li>
+\n 	<li>CCD <em>Detector </em>dengan panjang gelombang 167-785 nm detektor dipasang pada perangkat Peltier triple-tahap dan didinginkan sampai -35°C.</li>
+\n 	<li><em>Water Cooler</em> berfungsi untuk mendinginkan</li>
+\n 	<li><em>Autosampler</em> merupakan pengambil sampel secara otomatis untuk memasukkan sampel secara otomatis ke dalam <em>inlet</em>. Kapasitas sampai tiga rak sampel dan dua rak standar.</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/09/DSC04198.jpg, https://polarlabsen.link/wp-content/uploads/2022/09/DSC04201.jpg, https://polarlabsen.link/wp-content/uploads/2022/09/DSC04204.jpg, https://polarlabsen.link/wp-content/uploads/2022/09/DSC04202.jpg, https://polarlabsen.link/wp-content/uploads/2022/09/Hasil.png"
+High Performance Liquid Chromatography (HPLC) Analitik,"<em>High Performance Liquid Chromatography</em> (HPLC) berfungsi untuk menentukan atau mengukur atau menganalisa kadar bahan aktif pada suatu sampel. <em>High Performance Liquid Chromatography</em> (HPLC) pada umumnya digunakan untuk memisahkan sejumlah senyawa organik, anorganik maupun senyawa biologis, analisis ketidakmurnian, analisis senyawa-senyawa tidak mudah menguap, penentuan molekul-molekul netral, ionik maupun zwitter ion.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-018","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Waters</li>
+\n 	<li>Tipe: S-1500-Deries</li>
+\n 	<li>Solvent Reservoir berfungsi untuk menampung fase gerak yang akan dialirkan ke dalam kolom dengan bantuan pompa.</li>
+\n 	<li>Detektor <em>photodiode-array</em> (PDA) yang dapat memberikan kumpulan kromatogram secara simultan pada panjang gelombang yang berbeda dalam sekali proses <em>(single-run)</em> dan diperoleh spectrum UV tiap puncak yang terpisah.</li>
+\n 	<li>Detektor Fluoresensi merupakan detektor spesifik yang mengandung senyawa yang dapat menyerap sinar UV atau visibel lalu mengemisikannya pada panjang gelombang yang lebih besar.</li>
+\n 	<li>Detektor Indeks Bias merupakan detektor yang bersifat universal yang mampu memberikan respon pada setiap zat terlarut. Detektor ini akan merespon setiap perbedaan indeks bias antara zat terlarut dengan fase geraknya.</li>
+\n 	<li>Pompa berfungsi untuk memberikan tekanan yang diperlukan untuk menggerakkan fase gerak dan analit melalui kolom.</li>
+\n 	<li>Injector merupakan tempat masuknya sampel ke dalam sistem HPLC.</li>
+\n 	<li><em>Column</em> merupakan fase diam untuk berlangsungnya proses pemisahan komponen sampel.</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04056.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04066.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04072.jpg"
+High Performance Liquid Chromatography (HPLC) Analitik B,"<em>High Performance Liquid Chromatography</em> (HPLC) berfungsi untuk menentukan atau mengukur atau menganalisa kadar bahan aktif pada suatu sampel. <em>High Performance Liquid Chromatography</em> (HPLC) pada umumnya digunakan untuk memisahkan sejumlah senyawa organik, anorganik maupun senyawa biologis, analisis ketidakmurnian, analisis senyawa-senyawa tidak mudah menguap, penentuan molekul-molekul netral, ionik maupun zwitter ion.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-017.A
+\n
+\nLS/IK/AK.01-017.B","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Waters Aliance</li>
+\n 	<li>Series: e2695</li>
+\n 	<li>Solvent Reservoir berfungsi untuk menampung fase gerak yang akan dialirkan ke dalam kolom dengan bantuan pompa.</li>
+\n 	<li>Degasser berfungsi untuk menghilangkan gas pada sampel yang akan dianalisis.</li>
+\n 	<li>Detektor UV-Vis berfungsi untuk mendeteksi keberadaan komponen yang telah melewati kolom dan memberikan sinyal elektronik pada pengolah data, karakteristik yang dibaca oleh detektor ini adalah absorbansinya.</li>
+\n 	<li>Pompa berfungsi untuk memberikan tekanan yang diperlukan untuk menggerakkan fase gerak dan analit melalui kolom.</li>
+\n 	<li>AutoInjector merupakan tempat masuknya sampel ke dalam sistem HPLC.</li>
+\n 	<li><em>Column</em> merupakan fase diam untuk berlangsungnya proses pemisahan komponen sampel.</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04081.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04094.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04098.jpg"
+Scanning Electron Microscope (SEM) Tabletop Microscope,"<em>Tabletop Microscope </em>HITACHI TM3000 berfungsi untuk mengetahui informasi-informasi mengenai topografi, morfologi dan komposisi sampel. <em>Tabletop Microscope </em>HITACHI TM3000 digunakan untuk spesimen berukuran normal.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-014","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Hitachi</li>
+\n 	<li>Tipe: TM3000</li>
+\n 	<li><em>Magnification </em>: 15 to 30.000x (digital zoom 2x, 4x)</li>
+\n 	<li>Kondisi pengamatan : 5kV/15kV/<em>Analysis</em></li>
+\n 	<li>Mode pengamatan : standard mode, charge up reduction mode</li>
+\n 	<li>Mode gambar : COMPO/Shadow 1/ Shadow2/TOPO</li>
+\n 	<li>Sample stage traverse : X:±17,5mm Y: ±17,5mm</li>
+\n 	<li>Maksimum ukuran sampel : 70mm dalam diameter</li>
+\n 	<li>Maksimum tinggi sampel : 50mm</li>
+\n 	<li><em>Electron gun</em> : <em>pre-centered cartridge filament</em></li>
+\n 	<li>Sistem deteksi sinyal : sensitivitas tinggi semikonduktor BSE detektor</li>
+\n 	<li>Fungsi <em>auto image adjustment</em>: auto start, auto focus, auto brightness/contrast</li>
+\n 	<li><em>Operation help function : raster rotation, magnification preset (two steps) image shift</em> (±50um @D*=4.5)</li>
+\n 	<li>Rangka memori : 640x480 pixels, 1.280 x 960 pixels</li>
+\n 	<li>Memori data gambar : HDD dari PC dan media penghapusan lainnya</li>
+\n 	<li>Format gambar : BMP, TIFF, JPEG</li>
+\n 	<li>Tampilan data : penanda mikron, nilai mikron, tanggal dan waktu, nomor gambar dan komentar, mode gambar, kondisi pengamatan, D*(<em>distance</em>), mode pengamatan</li>
+\n 	<li><em>Evacuation system</em> (pompa vakum) :</li>
+\n 	<li>Pompa turbomolekular : 30l/s x 1 unit,</li>
+\n 	<li>Pompa diafragma: 1m3/h x 1unit</li>
+\n</ul>
+\nKeamanan perangkat :fungsi proteksi arus, ELCB",1,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04101.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04103.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04104.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/TM-3000.jpg"
+Ultra Performance Liquid Chromatpgraphy (UPLC),"<em>Ultra Performance High Chromatography</em> (UPLC) berfungsi untuk memisahkan komponen-komponen dari suatu campuran senyawa kimia dengan akurasi dan limit deteksi yang tinggi. <em>Ultra Performance High Chromatography</em> (UPLC) pada umumnya digunakan untuk memisahkan campuran ke dalam komponen-komponen murninya dan menganalisis campuran senyawa biomolekul atau senyawa bioaktif dalam bidang kimia, biokimia, kimia organik bahan alam hayati, biologi, farmasi, kedokteran, teknologi pertanian (<em>agrotechnology</em>), bioteknologi, dan ilmu pangan (<em>life sciences</em>).
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-009","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Waters</li>
+\n 	<li>Tipe: H-Class System</li>
+\n 	<li>Detektor FLR berfugsi untuk mengukur tingkat rendahnya fluoresensi yang dipancarkan oleh sampel.</li>
+\n 	<li>Detektor PDAmerupakan detektor spektrofotometri UV-Vis yang berfungsi untuk mendeteksi adanya komponen yang keluar dari column dari rentang panjang gelombang 190-800 nm.</li>
+\n 	<li>Pompa <em>Quaternary Solvent Manager</em> (QSM) berfungsi untuk memberikan tekanan yang diperlukan untuk menggerakkan fasa gerak dan analit melalui kolom.</li>
+\n 	<li><em>Sample manager </em>FTN berfungsi untuk menginjeksi sampel</li>
+\n 	<li><em>Column heater</em></li>
+\n 	<li><em>Column manager </em>merupakan tempat untuk menyimpan kolom yang digunakan untuk memproses sampel.</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04126.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04129.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04131.jpg"
+Atomic Absorption Spectophotometer (AAS),"<em>Atomic Absorption Spectophotometer</em> atau Spektrofotometer Serapan Atom (AAS) digunakan untuk menganalisis unsur secara kuantitatif yang pengukurannya berdasarkan penyerapan cahaya dengan panjang gelombang tertentu oleh atom logam dalam keadaan bebas. Spektrofotometer Serapan Atom digunakan untuk menganalisis unsur-unsur logam.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.03-010","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Perkin Elmer</li>
+\n 	<li>Tipe: 400 Perkin Elmer</li>
+\n 	<li>Echelle monokromator dengan panjang gelombang 189-900 nm</li>
+\n 	<li>Detektor dengan efisiensi tinggi tersegmentasi detektor solid-state.</li>
+\n 	<li>Sumber cahaya katoda berongga atau lampu discharge electrodeless (EDLs).</li>
+\n 	<li><em>E-box</em></li>
+\n 	<li>Kontrol Gas dan Sistem Burner</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04209.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04212.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04213.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/Untitled.png"
+High Performance Liquid Chromatography (HPLC) Preparative,"<em>HPLC preparative </em>berfungsi untuk memisahkan molekul berdasarkan perbedaan afinitasnya terhadap zat padat tertentu dimana <em>HPLC preparative</em> sangat membantu nantinya untuk pemisahan dan pengumpulan kembali apa yang telah dipisahkan. <em>HPLC preparative </em>digunakan untuk memisahkan beberapa senyawa sekaligus baik berdasarkan waktu, volume atau puncak spektrum.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.02-019","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Agilent</li>
+\n 	<li>Tipe: SD1</li>
+\n 	<li>Dua <em>pump</em> yang berfungsi untuk mendorong fase gerak dengan tekanan yang tinggi.</li>
+\n 	<li>Detector UV dual waveleght mode dengan panjang gelombang dari 190nm – 700nm</li>
+\n 	<li><em>Fraction Collector</em> berfungsi untuk menghimpun seluruh sampel berdasarkan waktu, volume atau puncak spektrum pada segala jenis tabung atau bejana yang sesuai.</li>
+\n 	<li>Kolom yang digunakan berupa C18 merupakan fase terbalik bersifat non polar</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04885.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04886-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04888-copy.jpg"
+Spectrophotometer Fluorescence,"<em>Spectrophotometer fluorescence </em>berfungsi menganalisis <em>fluorescence</em> dari atom sampel menggunakan berkas cahaya yang akan menyebabkan eksitasi pada sampel dan kemudian diemisi. <em>Spectrophotometer fluorescence</em> ini digunakan menganalisis senyawa-senyawa yang ber<em>fluorescence.</em>
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-007","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Agilent</li>
+\n 	<li>Sumber lampu berupa Xenon dengan <em>pulse width</em> 2-3 µs</li>
+\n 	<li>Detektor berupa <em>Photomultiplier </em></li>
+\n 	<li>Monokromator terdiri dari 2 yaitu monokromatror eksitasi dan emisi dengan rentang panjang gelombang 190-900 nm.</li>
+\n 	<li><em>Sample holder</em> terdiri dari 2 yaitu <em>liquid sample holder</em> dan <em>solid sample holder</em></li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04892.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04894-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04895-copy.jpg"
+Spectrophotometer UV-Vis,"Spektrofotometer UV-VIS Lambdaberfungsi untuk mengukur transmitansi, reflektansi dan absorbsi dari cuplikan sebagai fungsi dari panjang gelombang serta untuk pengukuran serapan cahaya di daerah ultraviolet (200-400 nm) dan sinar tampak (400-800 nm) oleh suatu senyawa. Spektrofotometer UV-Vis Lambda pada umumnya digunakan untuk:
+\n<ul>
+\n 	<li>Menentukan jenis kromofor, ikatan rangkap yang terkonyugasi dan ausokrom dari suatu senyawa organik.</li>
+\n 	<li>Menjelaskan informasi dari struktur berdasarkan panjang gelombang maksimum suatu senyawa.</li>
+\n 	<li>Mampu menganalisis senyawa organik secara kuantitatif dengan menggunakan hukum  Lambert-Beer</li>
+\n</ul>
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Perkin Elmer</li>
+\n 	<li>Tipe: Lambda 35</li>
+\n 	<li><em>Type instrument </em>Spektofotometer UV-VIS merupakan <em>double beam</em></li>
+\n 	<li><em>Single Cell Holder</em> , 9 <em>Cell Changers</em>, dan 13 <em>Cell Changers</em></li>
+\n 	<li>Detektor UV-VIS<em>Photodiodes</em>dengan panjang gelombang 190-1000nm</li>
+\n 	<li>Lampu Halogen dan Deuterium</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04900.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04901-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04903-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/Hasil.png"
+Fourier-transform Infrared (FTIR),"Nicolet Summit FTIR Spectrofotometer berfungsi untuk mengetahui ikatan kimia dalam suatu sampel, kemurnian serta kontaminasi sampel. Nicolet Summit FTIR dapat digunakan pada sampel padat maupun cairan.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\n&nbsp;","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li>Tipe: Nicolet Summit</li>
+\n 	<li>Nicolet Summit FTIR Spectrophotometer menggunakan KBr/Ge mid-infrared optimized</li>
+\n 	<li>Detektornya menggunakan Lithium Tantalate (LiTaO<sub>3</sub>)</li>
+\n 	<li>Nicolet Summit FTIR Spectrophotometer memiliki dimensi 32 x 34 x 24 cm</li>
+\n 	<li>Nicolet Summit FTIR Spectrophotometer dilengkapi dengan Everest Diamond ATR; iD ATR</li>
+\n 	<li>Nicolet Summit FTIR Spectrophotometer memiliki jangkauan spectra 8000 hingga 350 cm<sup>-1</sup></li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04896.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04897-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04898-copy.jpg"
+Gas Chromatography Mass Spectrometry,"GC-MS adalah sebuah metode analisis yang menggabungkan antara kromatografi gas dengan spektrum masa untuk menganalisis senyawa-senyawa yang terkandung dalam suatu sampel. Sampel yang digunakan berada dalam kondisi cair yang selanjutnya diinjeksikan pada kolom.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-022","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Agilent</li>
+\n 	<li>Tipe: Agilent 5977B GCMSD</li>
+\n 	<li>Volume injeksi 1μL</li>
+\n 	<li>Kecepatan scan ≤ 20,000 Da/s</li>
+\n 	<li>Rentang massa 0.6 – 1091 m/z</li>
+\n 	<li>Dimensi 88 x 56 x 50 cm</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04133.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04135.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04138.jpg"
+Liquid Chromatography-Mass Spectrometer(LC-MS),"LC-MS merupakan instrumen analitik yang menggabungkan kemampuan pemisahan kromatografi cair (HPLC) dengan sistem analisis spektrometer massa.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AK.01-020","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Waters</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04115.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04121.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04124.jpg"
+Muffle Furnace with Fiber Insulated Chamber,"Tanur berfungsi untuk memanaskan atau mengeringkan sampel. Tanur ini digunakan untuk memanaskan atau mengeringkan sampel pada suhu 10-1100<sup>O</sup>C dalam kondisi statis.
+\n
+\nLS/IK/AK.01-012","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: SNOL</li>
+\n 	<li>Tipe: SNOL 3/1100</li>
+\n 	<li>Berat: 17 kg</li>
+\n 	<li>Dimensi ruang kerja tanur (pxlxt): 120x175x100 mm</li>
+\n 	<li>Dimensi eksternal tanur (pxlxt) 345x500x430 mm</li>
+\n 	<li>Kapasitas daya 1,8 kW</li>
+\n 	<li>Tegangan listrik 230 V</li>
+\n 	<li>Frekuensi 50 Hz</li>
+\n 	<li>Suhu operasional tanur 10-1100<sup>O</sup>C</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05761.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05764-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05766-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05768-copy.jpg"
+Carbon Sulphur Determinator PC Controlled,"<em>Carbon Sulphur Determinator PC Controlled</em> berfungsi untuk menganalisis unsur <em>carbon </em>dan <em>sulphur</em>. <em>Carbon Sulphur Determinator PC Controlled</em> ini digunakan untuk berbagai macam bahan sampel dalam berbagai bentuk yaitu serbuk, serutan, potongan padat dan juga beberapa zat dalam bentuk cair. Bahan khusus seperti batubara, abu, baja, semen, sampel tanah, karet, dan lain-lain. Dapat diaplikasikan pada berbagai macam bidang seperti agrikultur, biologi, kimia, lingkungan, konstruksi, farmasi serta kesehatan.
+\n
+\nLS/IK/AK.01-013/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: ELTRA</li>
+\n 	<li>Tipe: CS 580</li>
+\n 	<li>Berat: ~90 kg</li>
+\n 	<li>Dimensi (pxlxt): 55 x 100 x 60 cm</li>
+\n 	<li>Jangkauan konsentrasi 0.005-100%</li>
+\n 	<li>Suhu dapat diatur secara bertahap 1-1550˚C</li>
+\n 	<li>Carbon Sulphur Determinator dilengkapi dengan carrier gas inlet, pressure regulator, oxygen valve, pressure switch, pressure gauge, restrictor, carrier gas flow gauge, gas pre-cleaning unit, furnace inlet-oxygen, furnace, furnace outlet-measuring gas, first measuring gas purifier, dust cartridge, flow sensor, IR-cell, measuring gas flow gauge, attenuator for the pump, gas flow pump, microcontroller, balance, PC, Monitor, dan printer.</li>
+\n</ul>",1,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05778.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05780-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05782-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05786-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05788-copy.jpg"
+Kjeldahl,Kjeldahl adalah metode yang digunakan untuk menganalisa protein dengan menentukan kandungan kadar nitrogen total dalam suatu sample. Kjeldahl digunakan untuk sample organik maupun anorganik.,,1,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05831.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05834-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05836-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05838-copy.jpg"
+CO2 Incubator,"CO<sub>2</sub><em> Incubator </em>berfungsi untuk menyimpan sampel atau hasil preparasi mikrobiologi yang memerlukan gas CO<sub>2</sub>  misalnya seperti sel kultur.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.02-003","<strong>Spesifikasi</strong>
+\n<ul>
+\n         <li>Merk: Thermo</li>
+\n         <li>Tipe: Series 8000DH</li>
+\n         <li>CO<sub>2</sub><em> Incubator</em> dilengkapi sistem panas langsung dengan sterilisasi maksimal suhu 40<sup>○</sup>C.</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04263.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04265.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04266.jpg"
+Microscope for Research,"<em>Microscope for research</em> digunakan sebagai aplikasi dalam bidang biologi dan kedokteran untuk pemeriksaan darah dan atau spesimen jaringan. <em>Microscope for research</em> melingkupi pemeriksaan kesehatan di laboratorium (penelitian), klinis dan praktik, kesehatan <em>Science</em> dan penelitian dasar biologi dan kedokteran serta farmakologi dan teknologi pangan.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.02-032","<strong>Spesifikasi</strong>
+\n<ul>
+\n         <li>Merk: ZEISS</li>
+\n         <li>RL (<em>Reflected Light</em>): Pencahayaan dari atas (<em>fluorescence</em>) yang dilengkapi dengan ApoTome, bisa melakukan <em>time series</em> dan mengambil gambar Z-<em>Stack</em></li>
+\n         <li>TL (<em>Transmitted Light</em>): Pencahayaan dari bawah, terdapat metode kontras yang bisa digunakan yaitu H: <em>Brightfield</em> (untuk sampel yang biasa/berwarna) dan D: <em>Darkfield</em> (untuk melihat detail sampel yang transparan)</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04285.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04286.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04288.jpg"
+Biological Safety Cabinet,"<em>Laminar flow cabinet</em> merupakan tempat untuk melakukan proses preparasi bahan-bahan mikrobiologi agar tidak terkontaminasi dengan udara luar. <em>Laminar flow cabinet</em> ini digunakan untuk sel kultur.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.03-051","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: ESCO</li>
+\n 	<li>Tipe: AVC-4D1</li>
+\n 	<li><em>Laminar flow cabinet </em>dilengkapi <em>air flow velocity</em> dengan nilai rata-rata 0,40-0,50 m/s <u>+</u> 20%.</li>
+\n</ul>",2,https://polarlabsen.link/wp-content/uploads/2022/10/DSC04260.jpg
+Animal Imaging,"<em>Animal imaging</em> berfungsi untuk memproyeksikan kondisi pergerakan internal makhluk hidup. <em>Animal imaging</em> ini dapat digunakan pada hewan, tumbuhan, gel, spot serta sel kultur.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.01-031","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Berthold</li>
+\n 	<li>Tipe: NightOWL LB 983 NC100</li>
+\n 	<li>Camera Back illuminated, 1024 x 1024 pixel; Quantum efficiency 90 % at 620 nm; Jangkauan spektrum 300 to 1050 nm; Dynamic range of 90 dB; Cooling to absolute -80°C to -90°C</li>
+\n 	<li>Ukuran sampel dan resolusi 1cm (res. 10um), 2cm (20um), 5cm (50um), 10cm (100um), 20cm (200um)</li>
+\n 	<li>Sumber cahaya berasal dari lampu tungsten 75W</li>
+\n 	<li>Dimensi 600 x 400 x 1220 mm</li>
+\n 	<li>Berat 85 kg</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04033.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04042.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04054.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/ex-vivo-melanoma-60-bw.png, https://polarlabsen.link/wp-content/uploads/2022/11/ex-vivo-melanoma-60.png, https://polarlabsen.link/wp-content/uploads/2022/11/Melanoma-15.png"
+Milliplex MAP Multiplexing Assays,"<em>Multiplexing Assays</em> adalah intrumen yang digunakan untuk mendeteksi, mengisolasi maupun mengukur senyawa biomolekul yang menjadi target (analit). <em>Multiplexing Assays</em> dapat digunakan untuk menganalisis serum dan plasma dengan target analit yang banyak.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.03-049","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Milliplex</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04314.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04316.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04319.jpg"
+Real Time PCR,"<em>Real Time</em> PCR adalah Teknik laboratorium biologi molekular yang berdasarkan pada reaksi rantai polimerase yang berguna untuk menganalisis keberadaan suatu gen tertentu dalam sampel secara kualitatif maupun kuantitatif. Sampel yang dapat diuji berupa sampel mikrobiologi.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.03-048","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Agilent</li>
+\n 	<li>Tipe: AriaMx</li>
+\n 	<li>Akusisi data &lt;3/plat sec</li>
+\n 	<li>Dimensi 50 x 46 x 42 cm</li>
+\n 	<li>Display <em>touchscreen</em></li>
+\n 	<li>Maksimum optical modules adalah 6</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04242.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04242.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04308.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04309.jpg"
+Vertical Gel Electrophoresis Unit,"<em>Vertical Gel Electrophoresis Unit</em> digunakan untuk memisahkan asam nukleat DNA dan RNA. Sampel yang digunakan adalah protein.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifakasi</strong>
+\n<ul>
+\n 	<li>Merk: Scie-plas</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04246.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04247.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04249.jpg"
+Microscope,"<em>Microscope</em> dapat digunakan untuk visualisasi dasar sampel sel. Dilengkapi dengan optik yang berkualitas tinggi sehingga menghasilkan gambar yang jelas.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.03-050","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: EVOS</li>
+\n 	<li>Kamera 3.1 megapixel</li>
+\n 	<li>Resolusi 1024 x 768 pixels</li>
+\n 	<li>Frekuensi 50/60 Hz</li>
+\n 	<li>Display dapat diatur</li>
+\n 	<li>Hasil berupa JPG, PNG, BMP dan TIFF</li>
+\n 	<li>Dimensi 13 x 21 x 16 inch</li>
+\n</ul>",2,https://polarlabsen.link/wp-content/uploads/2022/11/DSC04271.jpg
+Odyssey CLX Imaging System,"Odyssey CLX merupakan instrumen yang digunakan untuk visualisasi data <em>western blot</em> dengan menggunakan NIR fluoresens. Odyssey CLX ini dapat melakukan visualisasi hingga 9 mini-blots atau 6 microplates dalam satu waktu.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.03-035","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Licor</li>
+\n 	<li>Bidang sampel 25 x 25 cm</li>
+\n 	<li>Kecepatan scan 5-40 cm/s</li>
+\n 	<li>Resolusi 21-337 um</li>
+\n 	<li>Dimensi 22 x 25 x 15 inch</li>
+\n 	<li>Berat 70 lbs</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04236.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04238.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04239.jpg"
+Biological Safety Cabinet B,"<em>Biological safety cabinet</em> digunakan sebagai ruang kerja preparasi bahan-bahan biologis yang berbahaya seperti bakteri, virus serta asam nukleat yang membutuhkan Biosafety level 1, 2, 3.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: JSR</li>
+\n 	<li>Class II Type A2</li>
+\n 	<li>Biological safety cabinet dilengkapi dengan <em>vertical laminar flow</em></li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04920.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04921-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04922-copy.jpg"
+Biological Safety Cabinet C,"<em>Biological safety cabinet</em> digunakan sebagai ruang kerja preparasi bahan-bahan biologis yang berbahaya seperti bakteri, virus serta asam nukleat yang membutuhkan Biosafety level 1, 2, 3.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li>Tipe: 1300 Series</li>
+\n 	<li>Class II Type A2</li>
+\n 	<li>Biological safety cabinet dapat menahan beban hingga 50 kg</li>
+\n 	<li>Dimensi 80 x 100 x 156,8 cm</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04911.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04910-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04907-copy.jpg"
+CO2 Incubator B,"CO<sub>2</sub><em> Incubator </em>berfungsi untuk menyimpan sampel atau hasil preparasi mikrobiologi yang memerlukan gas CO<sub>2</sub>. CO<sub>2</sub><em> Incubator</em> digunakan untuk penyimpanan sampel sel kultur.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Biobase</li>
+\n 	<li>CO<sub>2</sub><em> Incubator</em> memiliki rentang suhu 5-60<sup>○</sup></li>
+\n 	<li>Berat 68 kg</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04912.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04914-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04915-copy.jpg"
+Primovert Cell and Tissue Culture Microscope,"<em>Primovert Cell and Tissue Culture Microscope</em> digunakan untuk melihat morfologi sel hidup atau mikroorganisme dengan lebih jelas.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: ZEISS</li>
+\n 	<li>Tipe: Primovert</li>
+\n 	<li>Dimensi 261 x 550 x 494 mm</li>
+\n 	<li>Berat 11 kg</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04916.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04917-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04919-copy.jpg"
+Autoclave,"<em>Autoclave</em> berfungsi sebagai alat sterilisasi uap yang dapat membunuh bakteri, virus, jamur serta spora. <em>Autoclave</em> digunakan untuk peralatan gelas laboratorium biologis serta media.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Hirayama</li>
+\n 	<li>Tipe: HVE-50</li>
+\n 	<li><em>Autoclave</em> memuat hingga 50L</li>
+\n 	<li><em>Autoclave</em> memiliki diameter 11,8 inch</li>
+\n 	<li><em>Autoclave</em> memiliki tipe <em>top-loading</em></li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04925.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04926.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04928.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04929.jpg"
+Biological Safety Cabinet D,"<em>Biological safety cabinet</em> digunakan sebagai ruang kerja preparasi bahan-bahan biologis yang berbahaya seperti bakteri, virus serta asam nukleat yang membutuhkan Biosafety level 1, 2, 3.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: ESCO</li>
+\n 	<li>Class II</li>
+\n 	<li><em>Bilological safety cabinet</em> dilengkapi dengan 2 <em>exhaust filter</em></li>
+\n 	<li>Pelindung yang terbuat dari Pb dengan ketebala 3mm</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04930.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04935.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04937.jpg"
+Digital Colony Counter,"<em>Digital colony counter</em> merupakan peralatan yang digunakan untuk menghitung jumlah koloni bakteri yang diinkubasi pada media.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Himedia</li>
+\n 	<li>Tipe: LA660</li>
+\n 	<li><em>Digital colony counter</em> dapat menghitung jumlah koloni 0-9999 <em>counts</em></li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04939.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04941.jpg"
+Incubator,"<em>Incubator </em>didesain untuk penyimpanan berbagai sampel penelitian. <em>Incubator </em>digunakan untuk menyimpan sampel mikrobiologi.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Heratherm</li>
+\n 	<li><em>Incubator </em>memiliki <em>range</em> suhu 5⁰C – 75⁰C</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04947.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04948.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04949.jpg"
+Microscope B,"<em>Microscope</em> digunakan untuk visualisasi objek yang terlalu kecil untuk dilihat secara langsung. <em>Microscope</em> digunakan untuk sampel biologis.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Olympus</li>
+\n 	<li>Tipe: CX21</li>
+\n 	<li><em>Microscope</em> memiliki okuler 10x hingga 16x</li>
+\n 	<li><em>Microscope</em> memiliki perbesaran 4x, 10x, 40x dan 100x</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04943.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04946.jpg"
+Multimode Reader,"<em>Multimode reader</em> berfungsi sebagai alat ukur multifungsi yang dilengkapi dengan injektor dengan 2 pompa, kontrol gas CO<sub>2</sub> dan N<sub>2</sub> serta dilengkapi dengan 2 <em>software</em> yaitu i-control dan magellan. <em>Multimode reader</em> digunakan untuk pengukuran<em> absorbance, flourescence </em>dan<em> luminescence</em>.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Tecan</li>
+\n 	<li>Tipe: Infinite 200PRO NanoQuant</li>
+\n 	<li>Menyediakan metode pembacaan <em>absorbance</em>.</li>
+\n 	<li>Multimode reader dapat digunakan untuk pembacaan <em>absorbance scanning</em></li>
+\n 	<li>Multimode reader memiliki sensitifitas dan fleksibilitas yang tinggi dengan 6 hingga 384-well <em>microplates</em>, PCR <em>plates</em>, <em>cuvettes</em> dan NanoQuant <em>Plate</em>™</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04963.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04964.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04965.jpg"
+PCR Gradient,"PCR<em> Gradient </em>dapat digunakan untuk melakukan amplifikasi basa nukleotida, sintesis cDNA pada <em>Reverse Transcriptase</em> PCR (RT-PCR), <em>cycle sequencing</em>, dan lain-lain. PCR<em> Gradient </em>digunakan untuk mendeteksi keberadaan materi genetik dengan menggunakan metode PCR.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Sensoquest</li>
+\n 	<li>PCR <em>Gradient </em>dapat dijalankan dengan <em>gradient temperature</em></li>
+\n 	<li>PCR <em>Gradient</em> dapat digunakan untuk tabung dengan ukuran 0,5 mL, 0,2 mL, dan <em>microtiterplate</em> 96 atau 384</li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04950.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04952.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04953.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04954.jpg"
+Medical Freezer,"<em>Medical freezer</em> didesain untuk mendukung langsung aplikasi medis khususnya penyimpanan sampel penelitian. <em>Medical freezer</em> digunakan untuk menyimpan reagen dan sampel bioteknologi.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li>Tipe: TSE Series</li>
+\n 	<li><em>Medical freezer</em> memiliki 5 mode dasar dengan <em>range </em>suhu antara -10<sup>○</sup>C sampai -40<sup>○</sup></li>
+\n</ul>",2,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04957.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04959.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04962.jpg"
+TLC Scanner,"<em>TLC scanner 4 </em>paling banyak digunakan sebagai media kerja untuk evaluasi densitometer dari TLC/HPTLC kromatografi dan objek yang transparan. <em>TLC scanner 4</em> digunakan untuk pengukuran kualitatif dan kuantitatif TLC/HPTLC dengan menggunakan program winCATS.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/BA.02-003","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: CAMAG</li>
+\n 	<li>Tipe: CAMAG 4</li>
+\n 	<li><em>TLC scanner</em><em> 4</em> dilengkapi dengan <em>scanner </em>yang dapat membaca panjang gelombang dari 210-800 nm</li>
+\n 	<li><em>TLC scanner</em><em> 4 </em>membutuhkan format objek maksimal 20x20 cm</li>
+\n 	<li><em>TLC scanner 4</em> memiliki 3 lampu yaitu : Deuterium, Halogen, dan Mercury.</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04358-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04359-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04360-copy.jpg"
+Destilasi Bertingkat,"Destilasi bertingkat digunakan untuk memisahkan larutan dengan proses pemanasan serta pendinginan yang didasarkan pada perbedaan titik didih.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Dapat menampung sampel hingga kapasitas 10L</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04225.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04229.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04231.jpg"
+Rotary Evaporator,"<em>Rotary Evaporator</em> memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator</em> digunakan untuk memekatkan ekstrak cair.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-019","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: BUCHI</li>
+\n 	<li>Tipe: R-300</li>
+\n 	<li>Kecepatan rotasi 10-280 rpm</li>
+\n 	<li>Temperatur maksimum 220˚C</li>
+\n 	<li>Kapasitas maksimum 5L</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04334-1-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04337-copy-1.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04338-copy-1.jpg"
+Rotary Evaporator BUCHI R-3,<em>Rotary Evaporator</em> BUCHI R-3 memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator</em> BUCHI R-3 digunakan untuk sampel dengan kapasitas maksimal 4 L.,"<strong>Spesifikasi:</strong>
+\n<ul>
+\n 	<li>Merk: Buchi</li>
+\n 	<li>Tipe: R-3</li>
+\n 	<li>Dimensi : 430 x 520 x 315 mm</li>
+\n 	<li>Kecepatan rotasi : 20-280 rpm</li>
+\n 	<li>Ukuran labu : 50-4000 mL</li>
+\n 	<li>Kapasitas suhu penagas air : 20-95˚C</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2023/01/DSC05008.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05009.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05013.jpg"
+Rotary Evaporator BUCHI R-100,<em>Rotary Evaporator</em> BUCHI R-100 memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator</em> BUCHI R-100 digunakan untuk sampel dengan kapasitas maksimal 4 L.,"<strong>Spesifikasi:</strong>
+\n<ul>
+\n 	<li>Merk: Buchi</li>
+\n 	<li>Tipe: R-100</li>
+\n 	<li>Dimensi : 617 x 898 x 502 mm</li>
+\n 	<li>Kecepatan rotasi : 20-280 rpm</li>
+\n 	<li>Ukuran labu : 50-4000 mL</li>
+\n 	<li>Kapasitas suhu penangas air : 20-95˚C</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2023/01/DSC05019.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05021.jpg"
+Rotary Evaporator BUCHI R-215,<em>Rotary Evaporator</em> BUCHI R-215 memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator</em> BUCHI R-215 digunakan untuk sampel dengan kapasitas maksimal 4 L.,"<strong>Spesifikasi:</strong>
+\n<ul>
+\n 	<li>Merk: Buchi</li>
+\n 	<li>Tipe: R-215</li>
+\n 	<li>Dimensi : 55 x 55 x 57.5 cm</li>
+\n 	<li>Kecepatan rotasi : 20-280 rpm</li>
+\n 	<li>Ukuran labu : 50-4000 mL</li>
+\n 	<li>Kapasitas suhu penangas air : 20-180˚C</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2023/01/DSC05016.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05017.jpg"
+Rotary Evaporator BUCHI R-220,<em>Rotary Evaporator</em> BUCHI R-220 memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator</em> BUCHI R-220 digunakan sampel dengan kapasitas maksimal 20 L.,"<strong>Spesifikasi:</strong>
+\n<ul>
+\n 	<li>Merk: Buchi</li>
+\n 	<li>Tipe: R-220</li>
+\n 	<li>Dimensi : 55 x 55 x 57.5 cm</li>
+\n 	<li>Kecepatan rotasi : 5-150 rpm</li>
+\n 	<li>Kapasitas suhu penangas air : 20-180˚C</li>
+\n</ul>",3,"https://polarlabsen.link/wp-content/uploads/2023/01/DSC05022.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05023.jpg"
+Friability &amp; Abrassion Testers,"<em>Friability and Abrassion Testers </em>berfungsi untuk menguji keregasan, kerapuhan dan kepadatan suatu tablet. <em>Friability and Abrassion Testers </em> digunakan untuk bahan baku padat berbentuk tablet.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AP.03-008","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Erweka</li>
+\n 	<li>Tipe: TAR 220</li>
+\n 	<li><em>Friability and Abrassion Testers</em> memiliki rentang kecepatan 20 - 100 rpm</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04381-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04382-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04384-copy.jpg"
+Tablet Hardness Testers,"<em>Tablet Hardness Testers </em>berfungsi untuk mengetahui kekerasan dari sebuah tablet. <em>Tablet Hardness Testers </em> digunakan untuk bahan baku padat berbentuk tablet.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AP.03-022","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Erweka</li>
+\n 	<li>Tipe: TBH 325 WTD</li>
+\n 	<li>Dapat menyimpan sebanyak 50 metode pengujian</li>
+\n 	<li>Dapat digunakan untuk pengukuran berat, ketebalan dan diameter</li>
+\n 	<li>Dilengkapi dengan timbangan analitik</li>
+\n 	<li>Dilengkapi dengan SD card slot, LAN dan USB for printer</li>
+\n 	<li>Mampu digunakan untuk 100 sampel dalam sekali pengujian</li>
+\n 	<li>Mampu melakukan 6-8 pengujian setiap menit</li>
+\n 	<li>Rentang pengujian kekerasan antara 3-500 Newton</li>
+\n 	<li>Rentang diameter sampel antara 2-28 mm</li>
+\n 	<li>Rentang ketebalan sampel antara 0,10-25,00 mm</li>
+\n 	<li>Rentang berat sampel antara 20,0 mg-64,0 gram</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04386-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04388-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04389-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04390-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04391-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04392-copy.jpg"
+Tapped Density Testers,"<em>Tapped Density Testers </em>berfungsi untuk mengukur kerapatan dan berat jenis dari suatu sampel serbuk, granul dan sejenisnya.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AP.03-023","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Erweka</li>
+\n 	<li>Tipe: SVM 221</li>
+\n 	<li><em>Tapped Density Testers </em>dilengkapi dengan 2 wadah tes</li>
+\n 	<li>Pengukuran dapat dilakukan dengan jangkauan 1 detik hingga 9 jam</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04404-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04406-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04409-copy.jpg"
+Powder and Granulate Tester,"<em>Powder and Granulate Testers </em>berfungsi untuk menguji laju alir dari suatu granule. <em>Powder and Granulate Testers </em>digunakan untuk bahan baku serbuk padat.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AP.03-018","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Erweka</li>
+\n 	<li>Tipe: Erweka GT</li>
+\n 	<li><em>Powder and Granulate Testers </em>dilengkapi dengan timbangan kapasitas 7.000 gram dan stirrer</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04396-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04398-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04399-copy.jpg"
+Disintegration Tester,"<em>Disintegration Testers </em>berfungsi untuk mengetahui waktu hancur tablet. <em>Disintegration Testers </em> digunakan untuk bahan baku padat berbentuk tablet.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AP.03-005","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Erweka</li>
+\n 	<li>Tipe: ZT 322</li>
+\n 	<li><em>Disintegration Testers</em> dilengkapi dengan tabung yang terdapat pada <em>basket</em> pengujian</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04393-1-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04395-copy.jpg"
+Balance Capacity 100 Kg,"Timbangan teknis berfungsi untuk mengukur berat bahan baku padat maupun kering. Timbangan teknis digunakan untuk mengukur berat bahan baku padat maupun cair dengan kemampuan pembacaan 1 g hingga 150 kg.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Mettler Toledo</li>
+\n 	<li>Tipe: BBA221</li>
+\n 	<li>Timbangan teknis Mettler Toledo BBA221 memiliki berat 10 kg</li>
+\n 	<li>Timbangan teknis Mettler Toledo BBA221 memiliki dimensi (pxlxt) 430x240x486,5 mm, dengan luas <em>pan</em> 300x240 mm</li>
+\n 	<li>Timbangan teknis Mettler Toledo BBA221 mempunyai kapasitas penimbangan sampai 150 kg</li>
+\n</ul>",4,https://polarlabsen.link/wp-content/uploads/2022/11/DSC04427-scaled.jpg
+Motor for All Purpose Equipment,"<em>Three-Roller Mill </em>berfungsi mencampurkan bahan baku semi solid dengan cara menggiling formulasi. <em>Three-Roller Mill </em>digunakan untuk pembuatan bahan baku semi solid.
+\n
+\n<em>Homogenizer  </em>berfungsi menghomogenkan larutan. <em>Homogenizer </em>digunakan untuk  bahan baku <em>liquid</em><em>.</em>
+\n
+\n<em>Laboratory Kneader  </em>berfungsi untuk mencampurkan bahan dengan waktu yang relatif singkat. <em>Laboratory Kneader  </em>digunakan untuk  bahan baku semi solid.
+\n
+\n<em>Double Cone Mixer  </em>berfungsi untuk mencampurkan bahan baku padat serbuk atau granul dalam skala kecil. <em>Double Cone Mixer </em>digunakan untuk  bahan baku serbuk atau granul.
+\n
+\n<em>Dry Granulator </em>berfungsi untuk menghancurkan bahan baku padat kering menjadi granul. <em>Dry Granulator </em>digunakan untuk  bahan baku padat kering.
+\n
+\n<em>Wet Granulator </em>berfungsi untuk menghancurkan bahan baku menjadi granul dengan bahan baku basah. <em>Wet Granulator </em>digunakan untuk  bahan baku padat basah.
+\n
+\n<em>Coating pan </em>berfungsi untuk melapisi bagian permukaan tablet. <em>Coating pan </em>digunakan untuk  bahan baku padat dalam bentuk tablet.
+\n
+\n<em>Polishing drum  </em>berfungsi untuk mengkilapkan permukaan tablet. <em>Polishing drum  </em>digunakan untuk  bahan baku padat dalam bentuk tablet.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AP.03-014","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Erweka</li>
+\n 	<li>Tipe: AR 403-S</li>
+\n 	<li>Terdiri dari
+\n<ul>
+\n 	<li>Three-Roller Mill (Erweka SMS)</li>
+\n 	<li>Homogenizer (Erweka HHO)</li>
+\n 	<li>Laboratory Kneader (Erweka LKS)</li>
+\n 	<li>Double Cone Mixer (Erweka DKM)</li>
+\n 	<li>Dry Granulator (Erweka TG 2000)</li>
+\n 	<li>Wet Granulator (Erweka FGS)</li>
+\n 	<li>Coating Pan (Erweka DKS)</li>
+\n 	<li>Polishing Drum (Erweka PT)</li>
+\n</ul>
+\n</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04411-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04422.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04424.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04426.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04417.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04420.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04416.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04425.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04413-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04418.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC07284-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC07286-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC07280-copy.jpg"
+Spray Dryer,"<em>Spray Dryer</em> adalah alat yang digunakan untuk membuat bubuk kering dari larutan. Alat ini cocok untuk digunakan pada sampel yang sensitif terhadap panas serta membutuhkan konsistensi serbuk partikel yang baik.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Kodi Machinery LPG-5</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04158-1.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04161.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04164.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04167.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04169.jpg"
+Extractor and Concentrator Machine,Mesin Ekstraktor dan Konsentrator ini adalah alat yang digunakan untuk membuat <em>crude extract</em> dengan menggunakan pelarut air maupun alkoholik dengan kapasitas hingga 300L. Alat ini dapat digunakan dalam tekanan normal hingga tekanan negatif untuk menghindari terjadinya penguapan yang diakibatkan oleh suhu tinggi. Suhu yang digunakan untuk alat ini dapat diubah secara mandiri melalui <em>control box</em>.,"<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: MCS Machinery</li>
+\n 	<li>Tipe: TD-300</li>
+\n 	<li>Volume: 300L</li>
+\n 	<li>Temperature Scope: 0-220˚C</li>
+\n 	<li>Dimension: 4000 x 1350 x 3300 mm</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/01/DSC05038.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05042.jpg"
+Fluid Bed Dryer Processor,"Fluid Bed Dryer digunakan untuk membuat granul, pengeringan granul dan coating granul kering yang tidak memungkinkan untuk kering dalam suhu oven.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: PMS</li>
+\n 	<li>Tipe: FBD 5-E</li>
+\n 	<li>Kapasitas: 20-25 kg</li>
+\n 	<li>Heating: 27 KW</li>
+\n 	<li>Dimensi: 930 x 1425 x 2730 mm</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/01/DSC05030.jpg, https://polarlabsen.link/wp-content/uploads/2023/01/DSC05035.jpg"
+Climatic Chamber,"<em>Climatic chamber</em> berfungsi untuk menyimpan sampel dalam suhu dan kelembaban yang diinginkan. <em>Climatic Chamber </em>dapat digunakan untuk jenis sampel padatan maupun cairan.
+\n
+\nLS/IK/A2.01-001/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: IRMECO</li>
+\n 	<li>Tipe: KK 350 TOP+</li>
+\n 	<li>Kapasitas maksimal 335 L</li>
+\n 	<li>Suhu maksimal 80<sup>o</sup>C</li>
+\n 	<li>Kelembaban maksimal 90%</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC07287.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07290-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07292-copy.jpg"
+Distillation Set,"<em>Distillation set </em>berfungsi untuk memisahkan dan memurnikan bahan baku cair berdasarkan kecepatan menguapnya. <em>Distillation set </em>digunakan untuk bahan baku cair.
+\n
+\nLS/IK/A3.01-001/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: UIC</li>
+\n 	<li>Tipe: UIC KDL 5</li>
+\n 	<li>Kapasitas produksi 200-2000 gram per jam</li>
+\n 	<li>Suhu maksimal evaporator 250°C.</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC07270.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07271-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07273-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07274-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07277-copy.jpg"
+Oscillating Granulator for Machine,"<em>Oscillating Granulator for Machine </em>berfungsi untuk memperkecil ukuran partikel bahan baku padat kering atau padat basah. <em>Oscillating Granulator for Machine </em>digunakan untuk bahan baku padat kering atau padat basah.
+\n
+\nLS/IK/A3.01-001/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: PMS</li>
+\n 	<li>Tipe: HSG 75</li>
+\n 	<li>Kapasitas produksi 3-6 kg/pencampuran</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC07263.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07265-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07266-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07267-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07269-copy.jpg"
+Vibro Sifter,"<em>Vibro Sifter </em>berfungsi untuk memisahkan partikel bahan baku kering sesuai dengan ukuran yang diinginkan. <em>Vibro Sifter </em>digunakan untuk bahan baku padat kering.
+\n
+\nLS/IK/A3.01-001/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: PMS</li>
+\n 	<li>Tipe: VS 500-2</li>
+\n 	<li>Kapasitas produksi 30-100 kg/jam</li>
+\n 	<li>Daya motor 0.75 KW</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC07256.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07258-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07260-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07262-copy.jpg"
+Rotary Tablet Press Machine,"<em>Rotary Tablet Press Machine </em>berfungsi untuk mencetak butiran kering atau bahan baku <em>powder</em> ke dalam bentuk tablet dengan berat dan ukuran yang seragam. <em>Rotary Tablet Press Machine </em>digunakan untuk bahan baku serbuk kering.
+\n
+\nLS/IK/A3.01-001/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Accura</li>
+\n 	<li>Tipe: AMR FD D8</li>
+\n 	<li><em>K</em>apasitas produksi 4800-14000 tablet/jam</li>
+\n 	<li>Kecepatan kubah 10-30 rpm</li>
+\n 	<li>Tekanan maksimal 6 tons</li>
+\n 	<li>Diameter maksimal tablet yang dihasilkan 22 mm</li>
+\n 	<li>Maksimal kedalaman pengisian 20,5 mm</li>
+\n 	<li>Berat alat 350 kg</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC07293.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07307-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07312-copy.jpg"
+Coating Tablet Machine,"<em>Coating Tablet Machine </em>berfungsi untuk melapisi bagian permukaan tablet. <em>Coating Tablet Machine </em>digunakan untuk bahan baku padat berbentuk tablet.
+\n
+\nLS/IK/A3.01-001/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: PMS</li>
+\n 	<li>Tipe: FC 16-E</li>
+\n 	<li>Kapasitas produksi sekitar 3-5 kg (tergantung pada bentuk, ukuran dan berat jenis tablet) setiap kali pencampuran</li>
+\n</ul>",4,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC07316.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07318-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07320-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC07322-copy.jpg"
+Particle Size Analyzer (PSA),"<em>Particle Size Analyzer</em> berfungsi untuk karakterisasi ukuran partikel sampel. <em>Particle Size Analyzer </em>dapat digunakan untuk karakterisasi ukuran partikel sampel serbuk antara 0,4 µm-2000 µm dan sampel cairan antara 0,017 µm-2000 µm.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.02-016","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Beckman Coulter</li>
+\n 	<li>Tipe: LS 13 320</li>
+\n 	<li><em>Particle Size Analyzer </em>dilengkapi dengan dua jenis module yaitu <em>Dry Powder System</em> (DPS) untuk sampel serbuk dan <em>Universal Liquid Module</em> (ULM) untuk sampel cairan.</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04144.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04149.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04152.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/Hasil.png"
+Rotary Suspension Mixer,"<em>Rotary Suspension Mixer</em> berfungsi untuk mengaduk larutan dalam tabung secara menyeluruh. <em>Rotary Suspension Mixer</em> digunakan untuk berbagai jenis sampel larutan.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-019","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: RATEK</li>
+\n 	<li>Tipe: RSM7DC</li>
+\n 	<li><em>Rotary Suspension Mixer</em> ini mampu berputar dengan kecepatan maksimal 60 rpm</li>
+\n 	<li><em>Rotary Suspension Mixer</em> memiliki kemiringan disc bisa di atur sampai 90<sup>o</sup></li>
+\n 	<li><em>Rotary Suspension Mixer</em> memiliki kapasitas penyimpanan sampel 5 kg beserta <em>disc</em>.</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04361-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04364-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04365-copy.jpg"
+Freeze Dryer,"<em>Freeze Dryer</em> berfungsi untuk mengeringkan sampel dengan cara di vakum dalam kondisi beku. <em>Freeze Dryer</em> ini dapat digunakan untuk sampel biologis dan kimia.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-008","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Ihanil</li>
+\n 	<li>Tipe: Vac 8</li>
+\n 	<li><em>Freeze Dryer</em> dilengkapi dengan 8 buah tabung untuk menyimpan sampel</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04352-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04353-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04355-copy.jpg"
+Melting Point,"<em>Melting Point</em> M-565 merupakan alat yang digunakan untuk menentukan titik leleh maupun titik didih. <em>Melting Point</em> M-565 dapat digunakan untuk sampel serbuk maupun cairan dalam jumlah yang relatif sedikit.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: BUCHI</li>
+\n 	<li>Tipe: M-565</li>
+\n 	<li><em>Melting point</em> dan <em>boiling point</em> dapat digunakan untuk menentukan titik leleh dan titik didih sampel dari 10°C-400°C</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04340-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04342-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04343-copy.jpg"
+Rotary Evaporator B,"<em>Rotary Evaporator</em> memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator </em>R-300 memiliki kapasitas hingga 2L.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-019","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Buchi</li>
+\n 	<li>Tipe: R-300</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04334-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04337-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04338-copy.jpg"
+Crystallization Synthesis System,"<em>Crystallization Synthesis System </em>berfungsi untuk melakukan kristalisasi suatu senyawa dalam sistem tertutup. <em>Crystallization Synthesis System</em> biasanya digunakan untuk senyawa dalam bentuk larutan.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Syrris Atlas</li>
+\n 	<li><em>Crystallization Synthesis System </em>memiliki kapasitas 1 mL sampai 5 L</li>
+\n 	<li><em>Crystallization Synthesis System </em>memiliki rentang suhu untuk <em>jacketed vessel </em>adalah -90°C - 250°C, suhu maksimum untuk <em>hotplate</em> adalah 350°C dan suhu <em>hot </em>and <em>coldplate</em> dari -40°C - 160°C</li>
+\n 	<li><em>Crystallization Synthesis System </em>memiliki tekanan sampai 3 bar pada <em>jacketed reactor </em>atau 200 bar pada sistem yang dipanaskan</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04375-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04376-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04377-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04378-copy.jpg"
+Medium Pressure Liquid Chromatography (MPLC),"<em>Medium Pressure Liquid Chromatography</em> berfungsi untuk memisahkan dan mengidentifikasi dua komponen atau lebih dalam suatu sampel. <em>Medium Pressure Liquid Chromatography</em> digunakan untuk preparasi sampel organik dan bahan alam.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-015","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: BUCHI</li>
+\n 	<li><em>Medium Pressure Liquid Chromatography</em> dilengkapi dengan detektor UV-Vis C-640 pada panjang gelombang 200-840 nm</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04889.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04890-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04891-copy.jpg"
+High Performance Liquid Chromatography Semi-preparative,"HPLC Semi-preparative digunakan untuk memurnikan peptide, protein dan senyawa organik lainnya dalam kuantitas kecil.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-020","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Waters</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04372-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04373-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04374-copy.jpg"
+Rotary Evaporator,"<em>Rotary Evaporator</em> memiliki tujuan yaitu memisahkan pelarut dan zat terlarut dengan cara diuapkan kemudian dikondensasi. <em>Rotary Evaporator</em> digunakan untuk memekatkan ekstrak cair.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-019","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: BUCHI</li>
+\n 	<li>Tipe: R-300</li>
+\n 	<li>Kecepatan rotasi 10-280 rpm</li>
+\n 	<li>Temperatur maksimum 220˚C</li>
+\n 	<li>Kapasitas maksimum 5L</li>
+\n</ul>",5,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04334-1-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04337-copy-1.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04338-copy-1.jpg"
+Refrigerator Microcentrifuge,"<em>Refrigerator microcentrifuge</em> didesain untuk memisahkan material suspensi cairan yang memiliki berat jenis dan ukuran partikel yang berbeda (maksimum berat jenis sampel 1.2 g/cm<sup>3</sup> pada kecepatan maksimum). Suhu pada <em>refrigerator microcentrifuge</em> dapat diatur sesuai dengan kebutuhan. Pada umumnya <em>Refrigerator microcentrifuge</em> digunakan untuk memisahkan sampel mikrobiologis.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.02-015","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo</li>
+\n 	<li>Tipe: MicroCL 17</li>
+\n 	<li><em>Refrigerator microcentrifuge</em> dilengkapi dengan pengaturan suhu dengan range temperatur -4<sup>○</sup>C sampai 40<sup>○</sup>C.</li>
+\n 	<li><em>Refrigerator microcentrifuge</em> memiliki rotor dengan 24 lubang untuk menyimpan <em>microtube</em> dengan volume 1.5 – 2 mL.</li>
+\n 	<li>Kecepatan rotor minimal 300 rpm dan maksimum 13.300 rpm.</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04273.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04274.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04279.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04280.jpg"
+Aquabath,"<em>Aquabath</em> merupakan pemanas untuk sampel dengan menggunakan media air untuk menciptakan suhu yang konstan. <em>Aquabath</em> dapat digunakan untuk memanaskan sampel liquid atau semi solid.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-002","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li>Tipe: 18102A-1CEQ</li>
+\n 	<li><em>Aquabath </em>Model 18102A-1CE memiliki tegangan sebesar 230 V</li>
+\n 	<li><em>Aquabath </em>Model 18102A-1CE memiliki kapasitas sebanyak 2 L</li>
+\n 	<li>Rentang temperatur dengan sistem terbuka yaitu pada suhu ruang sampai 60°C</li>
+\n 	<li>Rentang temperatur dengan sistem tertutup yaitu pada suhu ruang sampai 100°C</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/10/DSC04290.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04293.jpg, https://polarlabsen.link/wp-content/uploads/2022/10/DSC04297.jpg"
+Oven,"Oven merupakan instrument yang digunakan untuk mengeringkan peralatan gelas atau bahan kimia tertentu serta membantu mempercepat proses penguapan. Oven digunakan untuk peralatan gelas, bahan kimia serta simplisia.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-006","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li>Tipe: OGH 100</li>
+\n 	<li>Oven <em>Heratherm</em> dapat beroperasi pada suhu 50°C-250°C</li>
+\n 	<li>Oven <em>Heratherm</em> memiliki kapasitas maksimal sebanyak 50 kg</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04326-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04330-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04333-copy.jpg"
+Analytical Balances ,"Timbangan analitik berfungsi untuk mengukur berat bahan kimia. Timbangan Analitik digunakan untuk mengukur berat bahan kimia padat maupun cair dengan kemampuan pembacaan dari 0,1 mg.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-001","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Mettler Toledo</li>
+\n 	<li>Tipe: MS204</li>
+\n 	<li>Timbangan analitik Mettler Toledo MS 204TS memiliki berat 5,8 kg</li>
+\n 	<li>Timbangan analitik Mettler Toledo MS 204TS memiliki dimensi (pxlxt) 204x347x348 mm, dengan diameter <em>pan</em> 90 mm</li>
+\n 	<li>Timbangan analitik Mettler Toledo MS 204TS mempunyai kapasitas penimbangan sampai 220 g</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04344-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04345-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04346-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04347-copy.jpg"
+Portable Balance,"Timbangan teknis berfungsi untuk mengukur berat bahan kimia. Timbangan teknis digunakan untuk mengukur berat bahan kimia padat maupun cair dengan kemampuan pembacaan 0,1 g.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AS.03-003","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Mettler Toledo</li>
+\n 	<li>Tipe: MS12001</li>
+\n 	<li>Timbangan teknis Mettler Toledo MS 12001 memiliki berat 10 kg</li>
+\n 	<li>Timbangan teknis Mettler Toledo MS 12001 memiliki dimensi (pxlxt) 363x346x118 mm, dengan diameter <em>pan</em> 351x245 mm</li>
+\n 	<li>Timbangan teknis Mettler Toledo MS 12001 mempunyai kapasitas penimbangan sampai 12200 gram</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04348-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04349-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04350-copy.jpg"
+Freezer,"<em>Freezer</em> digunakan unuk menyimpan sampel pada kondisi beku atau dingin dalam waktu lama. <em>Freezer</em> dapat digunakan untuk sampel-sampel biologis.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.
+\n
+\nLS/IK/AB.02-005.A
+\n
+\nLS/IK/AB.02-005.B","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Dathan</li>
+\n 	<li>Suhu dapat diatur hingga -86 ℃</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04300.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04303.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04305.jpg"
+Hot plate and Magnetic Stirrer,"<em>Hot plate</em> and <em>Stirrer</em> digunakan sebagai alat penunjang untuk memanaskan serta menghomogenasi larutan. Dapat digunakan sebagai pemanas saja, pengaduk saja serta dapat digunakan secara bersamaan.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li>Suhu maksimum 540ºC</li>
+\n 	<li>Kecepatan 50-1500 rpm</li>
+\n 	<li>Dimensi bidang permukaan 18,4 x 18,4 cm</li>
+\n 	<li>Berat 5,1 kG</li>
+\n 	<li>Dimensi total 33 x 20.8 x 9.7 cm</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04367-scaled.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04368-copy.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04369-copy.jpg"
+Microcentifuge,"<em>Microcentrifuge</em> adalah alat yang digunakan untuk memisahkan cairan dari komponen lainnya berdasarkan massa jenis. <em>Microcentrifuge</em> dapat digunakan untuk sampel biologis maupun sedimen.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Eppendorf</li>
+\n 	<li>Tipe: 5424R</li>
+\n 	<li><em>Microcentrifuge</em> memiliki kapasitas 1.5mL x 24</li>
+\n 	<li><em>Microcentrifuge</em> memiliki kapasitas kecepatan maksimum 15000 rpm</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04966.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04971.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04972.jpg"
+Micropipette,"<em>Micropipette</em> berfungsi untuk untuk memindahkan cairan dengan skala volume mikroliter.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Eppendorf, DragonLab</li>
+\n 	<li>Memiliki berbagai macam ukuran 10-100uL; 20-200uL; 100-1000uL; 500-5000uL</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04981.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04984.jpg"
+Micropipette 12 Channel,"<em>Micropipette</em> berfungsi untuk untuk memindahkan cairan dengan skala volume mikroliter.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Eppendorf</li>
+\n 	<li>Memiliki 12 channel yang dapat menarik 12 jenis sampel dalam satu waktu</li>
+\n 	<li>Memiliki kapasitas 30-300uL</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04973.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04976.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04978.jpg"
+Vortex,"<em>Vortex</em> berfungsi untuk proses homogenasi suatu sampel larutan. <em>Vortex</em> digunakan pada sampel cairan.
+\n
+\nHanya untuk penggunaan dalam lingkungan Laboratorium Sentral.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Thermo Scientific</li>
+\n 	<li><em>Vortex</em> memiliki kecepatan hingga 3000 rpm</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2022/11/DSC04986.jpg, https://polarlabsen.link/wp-content/uploads/2022/11/DSC04988.jpg"
+Analytical Balances B,"Timbangan analitik berfungsi untuk mengukur berat bahan kimia. Timbangan Analitik digunakan untuk mengukur berat bahan kimia padat maupun cair dengan kemampuan pembacaan dari 0,1 mg.
+\n
+\nLS/IK/AK.01-015","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: FV Gram</li>
+\n 	<li>Tipe: FV-220C</li>
+\n 	<li>Berat: 8,6 kg</li>
+\n 	<li>Dimensi (pxlxt): 320x400x470 mm</li>
+\n 	<li>Diameter <em>pan</em> 90 mm</li>
+\n 	<li>Kapasitas penimbangan sampai 210 g</li>
+\n 	<li>Suhu operasional timbangan 20-25<sup>O</sup>C</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05772.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05773-copy.jpg"
+Heating Mantle,Heating mantle adalah penangas yang digunakan di laboratorium untuk memberikan panas secara merata dan menyelurug. Heating mantle digunakan untuk memanaskan cairan atau larutan. Pemanasan dengan heating mantle dilakukan dengan menggunakan labu.,"<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Berat 3 kg</li>
+\n 	<li>Kapasitas labu 250-500 mL</li>
+\n 	<li>Max suhu 450˚C</li>
+\n 	<li>Voltase 220V/50Hz</li>
+\n 	<li>Daya 150 W</li>
+\n</ul>",6,https://polarlabsen.link/wp-content/uploads/2023/03/DSC05814-copy.jpg
+Arium Pro Water Ultrapure Water System,"Arium Pro Water Ultrapure Water System merupakan sumber air yang bebas dari pengotor untuk diaplikasikan pada kebutuhan laboratorium. Arium Pro Water Ultrapure Water System dapat diaplikasikan untuk pengujian ELISA, AAS, preparasi reagensia, elektroforesis, Northern Blot, Southern Blot, Western Blot, PCR, Kromatografi, Nutrient media, GC-MS, ICP, HPLC dan lain-lain.","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Sartorius</li>
+\n 	<li>Konduktivitas 0.055 µS/cm</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05823.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05825-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05826-copy.jpg"
+pH Meter,"pH meter Mettler Toledo dapat digunakan untuk pengukuran derajat keasaman, potensial (mV), temperatur dan ion. pH meter ini digunakan untuk sampel berupa larutan.
+\n
+\nLS/IK/AK.01-021","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: Mettler Toledo</li>
+\n 	<li>Dilengkapi dengan elektroda, probe ATC dan MTC</li>
+\n 	<li>Rentang pengukuran pH dari -2 sampai 20</li>
+\n 	<li>Rentang pengukuran potensial dari -2000 sampai 2000 mV</li>
+\n 	<li>Pengukuran temperatur dari -5°C sampai 130°C</li>
+\n 	<li>Rentang pengukuran ion dari 0 sampai 1000% ; 0 sampai 10000 ppm ; 1.00E-9 sampai 9.99+9 mg/L ; 1.00E-9 sampai 9.99+9 mmol/L ; 1.00E-9 sampai 9.99+9 mol/L</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05796.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05799-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05802-copy.jpg"
+Sonicator,"<em>Sonicator </em>adalah alat yang memanfaatkan gelombang ultrasonik atau getaran yang dapat merambat dalam medium padat, cair, dan gas. Sonicator berfungsi untuk mengurangi kandungan gas pada suatu larutan atau digunakan untuk proses <em>degassing</em>.
+\n
+\nLS/IK/AK.01-002/00","<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: FALC</li>
+\n 	<li>Dilengkapi dengan timer digital</li>
+\n 	<li>Suhu dapat diatur 20-80˚C</li>
+\n 	<li>Kapasitas 4.5 L</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05789.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05792-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05793-copy.jpg"
+UV Lamp,UV Lamp digunakan untuk mengamati pola noda pada panjang gelombang yang diinginkan. UV Lamp digunakan untuk mengamati noda pada plat silika kromatografi lapis tipis.,"<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Terdapat dua panjang gelombang yaitu 254 nm dan 365 nm</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05842.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05844-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05846-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05848-copy.jpg"
+Vortex Laboratory Shaker,Vortex digunakan untuk menghomogenasi larutan. Vortex ini diaplikasikan pada larutan yang telah berada pada tabung uji yang bertutup.,"<strong>Spesifikasi</strong>
+\n<ul>
+\n 	<li>Merk: FALC</li>
+\n 	<li>Kecepatan rotasi 100-3000 rpm</li>
+\n</ul>",6,"https://polarlabsen.link/wp-content/uploads/2023/03/DSC05804.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05805-copy.jpg, https://polarlabsen.link/wp-content/uploads/2023/03/DSC05807-copy.jpg"
