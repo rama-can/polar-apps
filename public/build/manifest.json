@@ -1,0 +1,24 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app-1dd2b5d0.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/ckeditor.css": {
+    "file": "assets/ckeditor-cc9ac682.css",
+    "src": "resources/js/ckeditor.css"
+  },
+  "resources/js/ckeditor.js": {
+    "css": [
+      "assets/ckeditor-cc9ac682.css"
+    ],
+    "file": "assets/ckeditor-cb153004.js",
+    "isEntry": true,
+    "src": "resources/js/ckeditor.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-1bd03d06.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  }
+}
