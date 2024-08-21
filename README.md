@@ -145,4 +145,3 @@ Langkah-langkah untuk mengatur dan menjalankan Polar Apps, termasuk pengaturan f
 ---
 
 Pastikan bahwa spesifikasi sistem dan versi perangkat lunak yang diperlukan sudah terpenuhi sebelum memulai.
-# polar-app
