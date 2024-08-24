@@ -127,7 +127,7 @@ class UserRolePermissionSeeder extends Seeder
             'email' => 'superadmin@mail.ru',
             'username' => 'superadmin',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('districtpolar'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -137,7 +137,7 @@ class UserRolePermissionSeeder extends Seeder
             'email' => 'polaradmin@mail.ru',
             'username' => 'polaradmin',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('districtpolar'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -147,7 +147,7 @@ class UserRolePermissionSeeder extends Seeder
             'email' => 'polarstaff@mail.ru',
             'username' => 'polarstaff',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('districtpolar'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -157,7 +157,7 @@ class UserRolePermissionSeeder extends Seeder
             'email' => 'polarstudent@mail.ru',
             'username' => 'polarstudent',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('districtpolar'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
