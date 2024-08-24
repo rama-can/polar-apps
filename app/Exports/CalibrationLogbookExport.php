@@ -13,11 +13,13 @@ class CalibrationLogbookExport implements FromCollection, WithHeadings, WithMapp
 {
     use Exportable;
 
+    protected $id;
     protected $startDate;
     protected $endDate;
 
-    public function __construct($startDate, $endDate)
+    public function __construct($id, $startDate, $endDate)
     {
+        $this->id = $id;
         $this->startDate = $startDate;
         $this->endDate = $endDate;
     }
@@ -26,6 +28,7 @@ class CalibrationLogbookExport implements FromCollection, WithHeadings, WithMapp
     {
         return CalibrationLogbook::query()
             ->with('product')
+            ->where('product_id', $this->id)
             ->whereBetween('date', [$this->startDate, $this->endDate])
             ->get(['product_id', 'date', 'technician', 'institution', 'document']);
     }
@@ -33,7 +36,7 @@ class CalibrationLogbookExport implements FromCollection, WithHeadings, WithMapp
     public function headings(): array
     {
         return [
-            'Tool Name',
+            'Product',
             'Date',
             'Technician',
             'Institution',

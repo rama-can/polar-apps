@@ -19,8 +19,8 @@
                     <div class="row mt-2">
                         <div class="col-md-6 mt-3">
                             <div class="form-group">
-                                <label for="name">Nama</label>
-                                <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{ old('name', $user->name) }}">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{ old('name', $user->name) }}" @required(true)>
                                 @error('name')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
@@ -28,9 +28,9 @@
                         </div>
                         <div class="col-md-6 mt-3">
                             <div class="form-group">
-                                <label for="phone_number">Phone Number</label>
-                                <input type="number" class="form-control @error('phone_number') is-invalid @enderror" id="phone_number" name="phone_number" value="{{ old('phone_number', $user->profile->phone_number ?? '') }}" placeholder="08xxxxxxxxx">
-                                @error('phone_number')
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control @error('username') is-invalid @enderror" id="username" name="username" value="{{ old('username', $user->username) }}" @required(true)>
+                                @error('username')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
                             </div>
@@ -41,7 +41,7 @@
                         <div class="col-md-6 mt-3">
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $user->email) }}">
+                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $user->email) }}" @required(true)>
                                 <small class="text-muted text-warning">
                                     This email will be used as a username
                                 </small>
@@ -79,6 +79,15 @@
                         </div>
                         <div class="col-md-6 mt-3">
                             <div class="form-group">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="number" class="form-control @error('phone_number') is-invalid @enderror" id="phone_number" name="phone_number" value="{{ old('phone_number', $user->profile->phone_number ?? '') }}" placeholder="08xxxxxxxxx">
+                                @error('phone_number')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="form-group">
                                 <label for="gender">
                                     Gender
                                 </label>
@@ -96,9 +105,6 @@
                                 @enderror
                             </div>
                         </div>
-                    </div>
-
-                    <div class="row mb-4">
                         <div class="col-md-6 mt-3">
                             <div class="form-group">
                                 <label for="avatar">
@@ -110,7 +116,9 @@
                                 @enderror
                             </div>
                         </div>
+                    </div>
 
+                    <div class="row mb-4">
                         <div class="col-md-6 mt-3">
                             <div class="form-group">
                                 <label for="address">

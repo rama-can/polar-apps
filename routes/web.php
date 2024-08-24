@@ -38,7 +38,6 @@ Route::namespace('App\Http\Controllers\Frontend')->group(function () {
 
     Route::middleware(['auth', 'isActive'])->group(function() {
         Route::prefix('{product}')->group(function() {
-
             Route::resource('work-instructions', 'WorkInstructionController')->names('work-instructions');
             Route::resource('usage-logbooks', 'UsageLogbookController')->names('usage-logbooks');
             Route::resource('calibration-logbooks', 'CalibrationLogbookController')->names('calibration-logbooks');
@@ -54,7 +53,7 @@ Route::middleware('auth', 'isActive')
     ->name('admin.')
     ->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-        Route::get('/exports', [ExportController::class, 'index'])->name('export.index');
+        // Route::get('/exports', [ExportController::class, 'index'])->name('export.index');
         Route::post('exports/usage-logbook', [ExportController::class, 'usageLogbook'])->name('export.usage-logbook');
         Route::post('exports/calibration-logbook', [ExportController::class, 'calibrationLogbook'])->name('export.calibration-logbook');
         Route::get('/application-settings', [SettingController::class, 'index'])->name('setting');

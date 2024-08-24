@@ -14,8 +14,9 @@ class UsageLogbookService
     public function dataTable(string $product)
     {
         $usageLogbook = UsageLogbook::where('product_id', $product)
-        ->with(['product'])
-        ->get();
+            ->with('product')
+            ->orderBy('created_at', 'desc')
+            ->get();
 
         return DataTables::of($usageLogbook)
             ->addIndexColumn()
@@ -44,10 +45,10 @@ class UsageLogbookService
             })
             ->addColumn('action', function ($row) {
                 $actionBtn = '';
-                if (Gate::allows('update usage-logbooks')) {
+                if (Gate::allows('update usage-logbooks') || Gate::allows('update front-usage-logbooks')) {
                     $actionBtn .= '<button type="button" name="edit" data-id="' . $row->id . '" class="editLogbook btn btn-warning btn-sm me-2"><i class="ti-pencil-alt"></i></button>';
                 }
-                if (Gate::allows('delete usage-logbooks')) {
+                if (Gate::allows('delete usage-logbooks') || Gate::allows('delete front-usage-logbooks')) {
                     $actionBtn .= '<button type="button" name="delete" data-id="' . $row->id . '" class="deleteLogbook btn btn-danger btn-sm"><i class="ti-trash"></i></button>';
                 }
                 return $actionBtn ;

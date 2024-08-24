@@ -38,7 +38,7 @@ class ProfileController extends Controller
         $result = $this->userService->update($request->all(), $id);
 
         if ($result['success']) {
-            return redirect()->route('profile')->with('success', $result['message']);
+            return redirect()->back()->with('success', $result['message']);
         } else {
             return back()->withInput()->with('error', $result['message']);
         }

@@ -15,7 +15,9 @@ class ProductService
 {
     public function dataTable()
     {
-        $data = Product::with('category')->get();
+        $data = Product::with('category')
+            ->orderBy('created_at', 'desc')
+            ->get();
 
         return DataTables::of($data)
             ->addIndexColumn()

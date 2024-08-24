@@ -3,14 +3,44 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <div class="d-flex justify-content-between align-items-center">
-                <h4 class="fw-bold">{{ $title ?? '' }}</h4>
-                @can('create product-categories')
-                    <button type="button" name="Add" class="btn btn-primary btn-sm" id="createLogbook">
-                        <i class="ti-plus"></i>
-                        Tambah Data
-                    </button>
-                @endcan
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold mb-3 mb-md-0">{{ $title ?? '' }}</h4>
+                <div class="w-100 w-md-auto d-flex flex-column flex-md-row align-items-center gap-3">
+                    <form action="{{ route('admin.export.usage-logbook') }}" method="POST" class="d-flex flex-column flex-md-row align-items-center gap-3 w-100">
+                        @csrf
+                        <input type="text" name="product_id" id="product_id" value="{{ $product->id }}" hidden>
+                        <div class="flex-grow-1">
+                            <label for="from_date_usage" class="form-label">From Date</label>
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control datepicker" placeholder="yyyy/mm/dd" name="from_date_usage" value="">
+                                <div class="btn border">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <small class="text-danger" id="from_date_usage-error"></small>
+                        </div>
+                        <div class="flex-grow-1">
+                            <label for="to_date_usage" class="form-label">To Date</label>
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control datepicker" placeholder="yyyy/mm/dd" name="to_date_usage" value="">
+                                <div class="btn border">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <small class="text-danger" id="to_date_usage-error"></small>
+                        </div>
+                        <div class="flex-shrink-0 mt-3 mt-md-4">
+                            <button type="submit" class="btn btn-primary btn-sm">Export</button>
+                        </div>
+                    </form>
+                    <div class="mt-3 mt-md-0">
+                        @can('create product-categories')
+                            <button type="button" name="Add" class="btn btn-primary btn-sm" id="createLogbook">
+                                <i class="ti-plus"></i> Add Data
+                            </button>
+                        @endcan
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -22,13 +52,13 @@
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Tanggal</th>
-                            <th>Nama Pengguna</th>
+                            <th>Date</th>
+                            <th>User Name</th>
                             <th>Status</th>
-                            <th>Total Durasi</th>
-                            <th>Suhu</th>
+                            <th>Total Duration</th>
+                            <th>Temperature</th>
                             <th>RH</th>
-                            <th>Catatan</th>
+                            <th>Note</th>
                             <th width="100px">Action</th>
                         </tr>
                     </thead>

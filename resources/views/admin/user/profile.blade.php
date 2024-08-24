@@ -5,17 +5,16 @@
         <div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
             <img src="{{ $user->image }}" alt="Avatar" class="img-user border border-secondary rounded-circle bg-white" width="100" height="100">
         </div>
-        <form method="POST" action="{{ route('admin.users.update', $user->id) }}" enctype="multipart/form-data">
+        <form method="POST" action="{{ route('admin.profile.update') }}" enctype="multipart/form-data">
             @csrf
-            @method('PUT')
+            @method('POST')
             <div class="row mt-2">
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="name">
-                            Nama
+                            Name
                         </label>
-                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
-                            name="name" value="{{ old('name', $user->name) }}" @required(true)>
+                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{ old('name', $user->name) }}" @required(true)>
                         @error('name')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
@@ -23,12 +22,11 @@
                 </div>
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
-                        <label for="phone_number">
-                            Phone Number
+                        <label for="username">
+                            Username
                         </label>
-                        <input type="number" class="form-control @error('phone_number') is-invalid @enderror" id="phone_number"
-                            name="phone_number" value="{{ old('phone_number', $user->profile->phone_number ?? '') }}" @required(true)>
-                        @error('phone_number')
+                        <input type="text" class="form-control @error('username') is-invalid @enderror" id="username" name="username" value="{{ old('username', $user->username) }}" @required(true)>
+                        @error('username')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
                     </div>
@@ -39,9 +37,8 @@
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email"
-                            name="email" value="{{ old('email', $user->email) }}" @required(true)>
-                        <small class="text-muted">
+                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $user->email) }}" @required(true)>
+                        <small class="text-muted text-warning">
                             This email will be used as a username
                         </small>
                         @error('email')
@@ -64,6 +61,17 @@
             </div>
 
             <div class="row">
+                <div class="col-md-6 mt-3">
+                    <div class="form-group">
+                        <label for="phone_number">
+                            Phone Number
+                        </label>
+                        <input type="number" class="form-control @error('phone_number') is-invalid @enderror" id="phone_number" name="phone_number" value="{{ old('phone_number', $user->profile->phone_number ?? '') }}">
+                        @error('phone_number')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
                 <div class="col-md-6 mt-3">
                     <label for="date_birth">Date Birth</label>
                     <div class="input-group input-append date" data-date-format="dd-mm-yyyy">
@@ -97,24 +105,6 @@
                         @enderror
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                {{-- <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="role">
-                            Role
-                        </label>
-                        <select class="form-select @error('role') is-invalid @enderror" id="role"
-                            name="role" @required(true) @disabled(true)>
-                            <option value="">{{ ucfirst($user->getRoleNames()->first()) }}</option>
-                        </select>
-                        @error('role')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
-                    </div>
-                </div> --}}
-
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="avatar">
@@ -127,17 +117,21 @@
                         @enderror
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="address">
                             Address
                         </label>
-                        <textarea class="form-control @error('address') is-invalid @enderror" id="address" name="address" @required(true)>{{ old('address', $user->profile->address ?? '') }}</textarea>
+                        <textarea class="form-control @error('address') is-invalid @enderror" id="address" name="address">{{ old('address', $user->profile->address ?? '') }}</textarea>
                         @error('address')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
                     </div>
                 </div>
+                <input type="button" value="{{ $user->isActived }}" name="is_active" id="is_active" hidden>
             </div>
 
             <x-btn-submit-form />

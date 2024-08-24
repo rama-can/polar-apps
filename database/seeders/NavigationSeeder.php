@@ -32,14 +32,6 @@ class NavigationSeeder extends Seeder
                 'type_menu' => 'child',
             ],
             [
-                'name' => 'Export',
-                'url' => 'admin/exports',
-                'permission' => 'exports',
-                'icon' => '',
-                'main_menu' => 1,
-                'type_menu' => 'child',
-            ],
-            [
                 'name' => 'Roles',
                 'url' => 'admin/roles',
                 'permission' => 'roles',

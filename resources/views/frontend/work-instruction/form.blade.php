@@ -1,6 +1,6 @@
 <div class="card-body">
     <form id="form-modalAction" class="form"
-        action="{{ $workIns->id ? route('work-instructions.update', ['product' => $product->id, 'intruksi_kerja' => $workIns->id]) : route('work-instructions.store', $product->id) }}" method="POST" enctype="multipart/form-data">
+        action="{{ $workIns->id ? route('work-instructions.update', ['product' => $product->id, 'work_instruction' => $workIns->id]) : route('work-instructions.store', $product->id) }}" method="POST" enctype="multipart/form-data">
         @csrf
         @if ($workIns->id)
             @method('PUT')

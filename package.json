@@ -7,13 +7,14 @@
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.8",
-        "axios": "^1.7.4",
+        "axios": "^1.7.5",
         "bootstrap": "^5.3.3",
         "laravel-vite-plugin": "^1.0.5",
         "sass": "^1.77.8",
-        "vite": "^4.5.3"
+        "vite": "^5.4.2"
     },
     "dependencies": {
-        "ckeditor5": "^42.0.2"
+        "ckeditor5": "^42.0.2",
+        "lodash": "^4.17.21"
     }
 }

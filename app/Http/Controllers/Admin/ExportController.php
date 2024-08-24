@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\UsageLogbook;
 use Illuminate\Http\Request;
 use App\Exports\UsageLogbookExport;
 use App\Http\Controllers\Controller;
@@ -24,6 +25,11 @@ class ExportController extends Controller
 
     public function usageLogbook(Request $request)
     {
+        $data = UsageLogbook::where('product_id', $request->product_id)->firstOrFail();
+        if (!$data) {
+            return redirect()->back()->with('error', 'Data not found');
+        }
+
         $request->validate([
             'from_date_usage' => 'required|date',
             'to_date_usage' => 'required|date'
@@ -31,22 +37,29 @@ class ExportController extends Controller
 
         $startDate = $request->from_date_usage;
         $endDate = $request->to_date_usage;
+        $id = $request->product_id;
 
         $fileName = 'usage_logbook_' . $startDate . '_' . $endDate . '.xlsx';
-        return Excel::download(new UsageLogbookExport($startDate, $endDate), $fileName);
+        return Excel::download(new UsageLogbookExport($id, $startDate, $endDate), $fileName);
     }
 
     public function calibrationLogbook(Request $request)
     {
+        $data = UsageLogbook::where('product_id', $request->product_id)->firstOrFail();
+        if (!$data) {
+            return redirect()->back()->with('error', 'Data not found');
+        }
+
         $request->validate([
-            'from_date_calibration' => 'required|date',
-            'to_date_calibration' => 'required|date'
+            'from_date_usage' => 'required|date',
+            'to_date_usage' => 'required|date'
         ]);
 
-        $startDate = $request->from_date_calibration;
-        $endDate = $request->to_date_calibration;
+        $startDate = $request->from_date_usage;
+        $endDate = $request->to_date_usage;
+        $id = $request->product_id;
 
         $fileName = 'calibration_logbook_' . $startDate . '_' . $endDate . '.xlsx';
-        return Excel::download(new CalibrationLogbookExport($startDate, $endDate), $fileName);
+        return Excel::download(new CalibrationLogbookExport($id, $startDate, $endDate), $fileName);
     }
 }

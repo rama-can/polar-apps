@@ -12,11 +12,13 @@ class UsageLogbookExport implements FromCollection, WithHeadings, WithMapping
 {
     use Exportable;
 
+    protected $id;
     protected $startDate;
     protected $endDate;
 
-    public function __construct($startDate, $endDate)
+    public function __construct($id, $startDate, $endDate)
     {
+        $this->id = $id;
         $this->startDate = $startDate;
         $this->endDate = $endDate;
     }
@@ -25,6 +27,7 @@ class UsageLogbookExport implements FromCollection, WithHeadings, WithMapping
     {
         return UsageLogbook::query()
             ->with('product')
+            ->where('product_id', $this->id)
             ->whereBetween('date', [$this->startDate, $this->endDate])
             ->get(['product_id', 'date', 'name', 'status', 'total_duration', 'temperature', 'rh', 'note']);
     }
@@ -32,7 +35,7 @@ class UsageLogbookExport implements FromCollection, WithHeadings, WithMapping
     public function headings(): array
     {
         return [
-            'Tool Name',
+            'Product',
             'Date',
             'Name',
             'Status',

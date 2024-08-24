@@ -1,12 +1,27 @@
 {
+  "public/assets/images/nature.jpeg": {
+    "file": "assets/nature-CekbwRE4.jpeg",
+    "src": "public/assets/images/nature.jpeg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-vvl1gulq.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/auth.css": {
+    "file": "assets/auth-DudzIaQb.css",
+    "src": "resources/css/auth.css",
+    "isEntry": true
+  },
   "resources/js/app.js": {
-    "file": "assets/app-9349caf8.js",
-    "isEntry": true,
-    "src": "resources/js/app.js"
+    "file": "assets/app-BX9iyeql.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
   },
   "resources/sass/app.scss": {
-    "file": "assets/app-1bd03d06.css",
-    "isEntry": true,
-    "src": "resources/sass/app.scss"
+    "file": "assets/app-D-sv12UV.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
   }
 }

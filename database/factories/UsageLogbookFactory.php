@@ -20,7 +20,7 @@ class UsageLogbookFactory extends Factory
         return [
             'product_id' => $this->faker->randomElement($product),
             'name' => $this->faker->name(),
-            'date' => $this->faker->dateTimeBetween('2024-06-17', '2024-08-17')->format('Y-m-d'),
+            'date' => $this->faker->dateTimeBetween('2024-08-01', '2024-08-30')->format('Y-m-d'),
             'status' => $this->faker->randomElement(['MAHASISWA', 'PLP', 'DOSEN', 'PENELITI', 'LAINNYA']),
             'total_duration' => $this->faker->time('H:i'),
             'temperature' => $this->faker->randomFloat(2, 36, 37),

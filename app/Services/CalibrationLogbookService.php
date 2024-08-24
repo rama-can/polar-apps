@@ -14,7 +14,10 @@ class CalibrationLogbookService
 {
     public function dataTable(string $product)
     {
-        $data = CalibrationLogbook::where('product_id', $product)->get();
+        $data = CalibrationLogbook::where('product_id', $product)
+            ->orderBy('created_at', 'desc')
+            ->with(['product'])
+            ->get();
 
         return DataTables::of($data)
             ->addIndexColumn()
@@ -26,10 +29,10 @@ class CalibrationLogbookService
             })
             ->addColumn('action', function ($row) {
                 $actionBtn = '';
-                if (Gate::allows('update calibration-logbooks')) {
+                if (Gate::allows('update calibration-logbooks') || Gate::allows('update front-calibration-logbooks')) {
                     $actionBtn .= '<button type="button" name="edit" data-id="' . $row->id . '" class="editLogbook btn btn-warning btn-sm me-2"><i class="ti-pencil-alt"></i></button>';
                 }
-                if (Gate::allows('delete calibration-logbooks')) {
+                if (Gate::allows('delete calibration-logbooks') || Gate::allows('delete front-calibration-logbooks')) {
                     $actionBtn .= '<button type="button" name="delete" data-id="' . $row->id . '" class="deleteLogbook btn btn-danger btn-sm"><i class="ti-trash"></i></button>';
                 }
                 return $actionBtn ;

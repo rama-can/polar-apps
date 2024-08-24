@@ -61,11 +61,13 @@
                                 <img id="modalImage" src="" class="img-fluid" alt="Product Image">
                             </div>
                             <div class="modal-footer">
+                                <a id="downloadButton" href="#" class="btn btn-primary" download="">Download</a>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             <div class="col-md-6">
                 <!-- Product Information -->
@@ -113,16 +115,19 @@
         document.addEventListener('DOMContentLoaded', function () {
             var carouselImages = document.querySelectorAll('#photoCarousel .carousel-item img');
             var modalImage = document.getElementById('modalImage');
+            var downloadButton = document.getElementById('downloadButton');
 
-            if (carouselImages && modalImage) {
-                carouselImages.forEach(function (img) {
-                    img.addEventListener('click', function () {
-                        var imageUrl = img.getAttribute('data-bs-image');
-                        modalImage.src = imageUrl;
-                    });
+            carouselImages.forEach(function(image) {
+                image.addEventListener('click', function() {
+                    var imageUrl = this.getAttribute('data-bs-image');
+                    modalImage.src = imageUrl;
+                    var fileName = imageUrl.split('/').pop();
+                    downloadButton.href = imageUrl;
+                    downloadButton.setAttribute('download', fileName);
                 });
-            }
+            });
         });
     </script>
+
     @endpush
 </x-front-layout>

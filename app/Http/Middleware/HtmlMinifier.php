@@ -36,27 +36,16 @@ class HtmlMinifier
      */
     protected function minifyHtml(string $html): string
     {
-        // $search = [
-        //     '/\>\s+/s',
-        //     '/\s+</s',
-        // ];
+        $search = [
+            '/\>\s+/s',
+            '/\s+</s',
+        ];
 
-        // $replace = [
-        //     '> ',
-        //     ' <',
-        // ];
+        $replace = [
+            '> ',
+            ' <',
+        ];
 
-        // return preg_replace($search, $replace, $html);
-
-        // Remove extra white-space and line-breaks between tags
-        $html = preg_replace('/>\s+</', '><', $html);
-
-        // Remove white-space and line-breaks before and after tags
-        $html = preg_replace('/^\s+|\s+$/m', '', $html);
-
-        // Remove comments except IE conditionals
-        $html = preg_replace('/<!--(?!\s*\[if\s).*?-->/', '', $html);
-
-        return $html;
+        return preg_replace($search, $replace, $html);
     }
 }

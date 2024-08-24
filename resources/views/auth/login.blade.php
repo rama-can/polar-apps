@@ -7,6 +7,7 @@
 
         <div class="card bg-glass">
             <div class="card-body px-7 py-5 px-md-4">
+
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <div class="row">
@@ -18,15 +19,15 @@
                             </p>
                             <!-- Email input -->
                             <div class="form-outline mb-3">
-                                <input id="email" type="email"
-                                    class="form-control @error('email') is-invalid @enderror" name="email"
-                                    value="{{ old('email') }}" placeholder="Email Address" autocomplete="email" autofocus
+                                <input id="username" type="text"
+                                    class="form-control @error('username') is-invalid @enderror" name="username"
+                                    value="{{ old('username') }}" placeholder="username" autocomplete="username" autofocus
                                     @required(true)>
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                @error('username')
+                                <span class="invalid-feedback" role="alert">
+                                    <p>{{ $message }}</p>
+                                </span>
                                 @enderror
                             </div>
                             <!-- Password input -->
@@ -44,7 +45,7 @@
                                 </div>
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <p>{{ $message }}</p>
                                     </span>
                                 @enderror
                             </div>

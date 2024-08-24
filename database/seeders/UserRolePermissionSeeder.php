@@ -78,12 +78,17 @@ class UserRolePermissionSeeder extends Seeder
         }
 
         // memberikan permission read dan create ke role student
-        $readPermissionsStudent = Permission::where('name', 'like', 'read front-work-instructions')->get();
-        foreach ($readPermissionsStudent as $permission) {
-            $role_student->givePermissionTo($permission);
+        $readPermissionsStudent = ['front-work-instructions', 'front-calibration-logbooks'];
+        foreach ($readPermissionsStudent as $module) {
+            foreach ($permissions as $action) {
+                $permission = Permission::where('name', 'like', 'read ' . "$module")->first();
+                if ($permission) {
+                    $role_student->givePermissionTo($permission);
+                }
+            }
         }
 
-        $frontModulesStudent = ['front-usage-logbooks', 'front-calibration-logbooks'];
+        $frontModulesStudent = ['front-usage-logbooks'];
 
         foreach ($frontModulesStudent as $module) {
             $readPermission = Permission::where('name', 'like', 'read ' . $module)->first();
@@ -120,8 +125,9 @@ class UserRolePermissionSeeder extends Seeder
         $result['administrator'] = User::create([
             'name' => 'Rama Can',
             'email' => 'superadmin@mail.ru',
+            'username' => 'superadmin',
             'email_verified_at' => now(),
-            'password' => Hash::make('LocationUnknown'),
+            'password' => Hash::make('password'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -129,8 +135,9 @@ class UserRolePermissionSeeder extends Seeder
         $result['administrator_2'] = User::create([
             'name' => 'Administrator',
             'email' => 'polaradmin@mail.ru',
+            'username' => 'polaradmin',
             'email_verified_at' => now(),
-            'password' => Hash::make('districtpolar'),
+            'password' => Hash::make('password'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -138,8 +145,9 @@ class UserRolePermissionSeeder extends Seeder
         $result['staff'] = User::create([
             'name' => 'Staff',
             'email' => 'polarstaff@mail.ru',
+            'username' => 'polarstaff',
             'email_verified_at' => now(),
-            'password' => Hash::make('districtpolar'),
+            'password' => Hash::make('password'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -147,8 +155,9 @@ class UserRolePermissionSeeder extends Seeder
         $result['student'] = User::create([
             'name' => 'Student',
             'email' => 'polarstudent@mail.ru',
+            'username' => 'polarstudent',
             'email_verified_at' => now(),
-            'password' => Hash::make('districtpolar'),
+            'password' => Hash::make('password'),
             'remember_token' => Str::random(10),
             'is_active' => 1,
         ]);
@@ -158,7 +167,7 @@ class UserRolePermissionSeeder extends Seeder
 
     public function createUserProfile()
     {
-        $admin = User::where('email', 'superadmin@gmail.com')->first();
+        $admin = User::where('email', 'superadmin@mail.ru')->first();
         if ($admin) {
             $admin->profile()->create([
                 'phone_number' => '089678468651',
@@ -169,7 +178,7 @@ class UserRolePermissionSeeder extends Seeder
             ]);
         }
 
-        $admin2 = User::where('email', 'admin@gmail.com')->first();
+        $admin2 = User::where('email', 'polaradmin@mail.ru')->first();
         if ($admin2) {
             $admin2->profile()->create([
                 'phone_number' => '089678468652',
@@ -180,7 +189,7 @@ class UserRolePermissionSeeder extends Seeder
             ]);
         }
 
-        $staff = User::where('email', 'staff@gmail.com')->first();
+        $staff = User::where('email', 'polarstaff@mail.ru')->first();
         if ($staff) {
             $staff->profile()->create([
                 'phone_number' => '08123456799',
@@ -191,7 +200,7 @@ class UserRolePermissionSeeder extends Seeder
             ]);
         }
 
-        $student = User::where('email', 'student@gmail.com')->first();
+        $student = User::where('email', 'polarstudent@mail.ru')->first();
         if ($student) {
             $student->profile()->create([
                 'phone_number' => '08123456789',

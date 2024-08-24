@@ -19,7 +19,7 @@ class CalibrationLogbookFactory extends Factory
         $product = ['1', '2', '3'];
         return [
             'product_id' => $this->faker->randomElement($product),
-            'date' => $this->faker->dateTimeBetween('2024-06-17', '2024-08-17')->format('Y-m-d'),
+            'date' => $this->faker->dateTimeBetween('2024-08-01', '2024-08-30')->format('Y-m-d'),
             'technician' => $this->faker->name(),
             'institution' => $this->faker->company(),
             'document' => $this->faker->url(),

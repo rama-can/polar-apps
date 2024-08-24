@@ -27,6 +27,19 @@
                                     </span>
                                 @enderror
                             </div>
+                             <!-- Username input -->
+                             <div class="form-outline mb-3">
+                                <input id="username" type="text"
+                                    class="form-control @error('username') is-invalid @enderror" name="username"
+                                    value="{{ old('username') }}" @required(true) autocomplete="username"
+                                    placeholder="Username">
+
+                                @error('username')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
                             <!-- Email input -->
                             <div class="form-outline mb-3">
                                 <input id="email" type="email"

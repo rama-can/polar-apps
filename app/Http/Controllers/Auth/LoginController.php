@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use Illuminate\Validation\ValidationException;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
@@ -39,22 +41,28 @@ class LoginController extends Controller
     }
 
     /**
+     * Get the login username to be used by the controller.
+     *
+     * @return string
+     */
+    public function username()
+    {
+        return 'username';
+    }
+
+    /**
      * The user has been authenticated.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \Illuminate\Contracts\Auth\User  $user
      * @return mixed
      */
-    protected function authenticated($request, $user)
+    protected function authenticated(Request $request, $user)
     {
-        if ($user->hasRole('administrator') || $user->hasRole('staff')) {
+        if ($user->hasRole('administrator')) {
             return redirect(RouteServiceProvider::ADMIN);
         }
 
-        // if ($user->hasRole('student')) {
-        //     return redirect(RouteServiceProvider::FRONTEND);
-        // }
-
-        return redirect()->intended($this->redirectTo);
+        return redirect()->intended($this->redirectTo)->with('success', 'Anda berhasil masuk');
     }
 }

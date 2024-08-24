@@ -37,7 +37,7 @@
             <div class="col-md-6">
                 <div class="mb-3">
                     <label for="document" class="form-label">Dokumen Kalibrasi </label>
-                    <input type="file" placeholder="Dokumen Kalibrasi" name="document" class="form-control" id="document" value="">
+                    <input type="file" placeholder="Dokumen Kalibrasi" name="document" class="form-control" id="document" value="" accept=".pdf">
                     <small class="text-danger" id="document-error"></small>
                     @if($calLogBook->document)
                         <p class="mt-2">Current document: <a href="{{ url($calLogBook->document) }}" target="_blank">{{ basename($calLogBook->document) }}</a></p>

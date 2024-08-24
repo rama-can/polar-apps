@@ -18,7 +18,9 @@ class UserService
     {
         $data = UserProfile::whereHas('user.roles', function ($query) {
             $query->where('name', '!=', 'administrator');
-        })->with('user.roles')->get();
+        })->with('user.roles')
+          ->orderBy('created_at', 'desc')
+          ->get();
 
         return DataTables::of($data)
             ->addIndexColumn()
@@ -64,7 +66,7 @@ class UserService
     public function create($data)
     {
         DB::beginTransaction();
-
+        // dd($data);
         try {
             // create user
             $user = $this->createUser($data);
@@ -92,9 +94,10 @@ class UserService
     {
         $user = User::create([
             'name' => $data['name'],
+            'username' => $data['username'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'is_active' => 0,
+            'is_active' => $data['is_active'],
         ]);
 
         // assign role
@@ -157,8 +160,12 @@ class UserService
     public function updateUser($data, $user)
     {
         $user->name = $data['name'];
+        $user->username = $data['username'];
         $user->email = $data['email'];
-        $user->is_active = $data['is_active'];
+
+        if (!empty($data['is_active'])) {
+            $user->is_active = $data['is_active'];
+        }
 
         // Encrypt and update password only if a new one is provided
         if (!empty($data['password'])) {

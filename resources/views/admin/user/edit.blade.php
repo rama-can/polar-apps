@@ -12,7 +12,7 @@
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="name">
-                            Nama
+                            Name
                         </label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
                             name="name" value="{{ old('name', $user->name) }}" @required(true)>
@@ -23,18 +23,15 @@
                 </div>
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
-                        <label for="phone_number">
-                            Phone Number
+                        <label for="username">
+                            Username
                         </label>
-                        <input type="number" class="form-control @error('phone_number') is-invalid @enderror" id="phone_number" name="phone_number" value="{{ old('phone_number', $user->profile->phone_number) }}" placeholder="08xxxxxxxxx">
-                        @error('phone_number')
+                        <input type="text" class="form-control @error('username') is-invalid @enderror" id="username" name="username" value="{{ old('username', $user->username) }}" @required(true)>
+                        @error('username')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
                     </div>
                 </div>
-            </div>
-
-            <div class="row mt-2">
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="email">
@@ -42,9 +39,6 @@
                         </label>
                         <input type="email" class="form-control @error('email') is-invalid @enderror" id="email"
                             name="email" value="{{ old('email', $user->email) }}" @required(true)>
-                        <small class="text-muted text-warning">
-                            This email will be used as a username
-                        </small>
                         @error('email')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
@@ -67,6 +61,37 @@
             </div>
 
             <div class="row">
+                <div class="col-md-6 mt-3">
+                    <div class="form-group">
+                        <label for="phone_number">
+                            Phone Number
+                        </label>
+                        <input type="number" class="form-control @error('phone_number') is-invalid @enderror" id="phone_number" name="phone_number" value="{{ old('phone_number', $user->profile->phone_number) }}" placeholder="08xxxxxxxxx">
+                        @error('phone_number')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="form-group">
+                        <label for="gender">Is Active?</label>
+                        <select class="form-select select2 @error('is_active') is-invalid @enderror" id="is_active"
+                            name="is_active" @required(true)>
+                            <option value=""></option>
+                            <option {{ $user->isActived == '1' ? 'selected' : '' }} value="1"
+                                {{ old('is_active') == '1' ? 'selected' : '' }}>
+                                Active
+                            </option>
+                            <option {{ $user->isActived == '0' ? 'selected' : '' }} value="0"
+                                {{ old('is_active') == '0' ? 'selected' : '' }}>
+                                Not active
+                            </option>
+                        </select>
+                        @error('is_active')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
                 <div class="col-md-6 mt-3">
                     <label for="date_birth">Date Birth</label>
                     <div class="input-group input-append date" data-date-format="dd-mm-yyyy">
@@ -126,28 +151,6 @@
                         @enderror
                     </div>
                 </div>
-
-                <div class="col-md-6 mt-3">
-                    <div class="form-group">
-                        <label for="gender">Is Active?</label>
-                        <select class="form-select select2 @error('is_active') is-invalid @enderror" id="is_active"
-                            name="is_active" @required(true)>
-                            <option value=""></option>
-                            <option {{ $user->isActived == '1' ? 'selected' : '' }} value="1"
-                                {{ old('is_active') == '1' ? 'selected' : '' }}>
-                                Active
-                            </option>
-                            <option {{ $user->isActived == '0' ? 'selected' : '' }} value="0"
-                                {{ old('is_active') == '0' ? 'selected' : '' }}>
-                                Not active
-                            </option>
-                        </select>
-                        @error('is_active')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
-                    </div>
-                </div>
-
                 <div class="col-md-6 mt-3">
                     <div class="form-group">
                         <label for="avatar">
