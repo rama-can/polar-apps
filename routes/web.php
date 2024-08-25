@@ -36,7 +36,7 @@ Route::namespace('App\Http\Controllers\Frontend')->group(function () {
     Route::get('/profile', 'ProfileController@index')->name('profile');
     Route::post('/profile', 'ProfileController@update')->name('profile.update');
 
-    Route::middleware(['auth', 'isActive'])->group(function() {
+    Route::middleware(['auth'])->group(function() {
         Route::prefix('{product}')->group(function() {
             Route::resource('work-instructions', 'WorkInstructionController')->names('work-instructions');
             Route::resource('usage-logbooks', 'UsageLogbookController')->names('usage-logbooks');

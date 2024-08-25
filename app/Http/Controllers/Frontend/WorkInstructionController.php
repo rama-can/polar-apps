@@ -31,7 +31,7 @@ class WorkInstructionController extends Controller
     {
         $productId = $this->hashId->decode($product);
         $product = Product::where('id', $productId)->firstOrFail();
-
+    
         if(!$product){
             abort(404);
         }
@@ -51,7 +51,6 @@ class WorkInstructionController extends Controller
     public function create(string $product)
     {
         $product = Product::where('id', $product)->firstOrFail();
-
         if(!$product){
             abort(404);
         }

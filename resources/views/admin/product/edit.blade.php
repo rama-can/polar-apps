@@ -209,9 +209,10 @@ $(function() {
         $(this).addClass('disabled');
         var id = $('#imageId').val();
         var formData = new FormData($('#form-modalAction')[0]);
+        var url = id ? `{{ url('admin/product-images/') }}/${id}` : `{{ url('admin/product-images') }}`;
         $.ajax({
             data: formData,
-            url: `{{ url('admin/product-images/') }}/${id}`,
+            url: url,
             type: "POST",
             processData: false,
             contentType: false,

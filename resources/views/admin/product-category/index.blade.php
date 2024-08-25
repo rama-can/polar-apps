@@ -145,16 +145,29 @@
                 $(this).html('Sending..');
                 $(this).addClass('disabled');
                 var id = $('#categoryId').val();
+                var url = '{{ url('admin/product-categories') }}';
+                
+                if (id) {
+                    url += `/${id}`;
+                    type = "PUT";
+                }
 
                 $.ajax({
                     data: $('#form-modalAction').serialize(),
-                    url: `{{ url('admin/product-categories/') }}/${id}`,
+                    url: url,
                     type: "POST",
                     dataType: 'json',
                     success: function(response) {
                         $('#modalAction').modal('hide');
                         table.draw();
-                        showToast('success', response.message);
+                    
+                        console.log('Server response:', response); // Debugging
+                        if (response.message) {
+                            showToast('success', response.message);
+                        } else {
+                            console.error('No message in response');
+                        }
+                    
                         $('#save-modal').html('Save');
                         $('#save-modal').removeClass('disabled');
                     },

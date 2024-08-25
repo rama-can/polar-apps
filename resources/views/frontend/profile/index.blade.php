@@ -10,9 +10,12 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
-                    <img src="{{ $user->image }}" alt="Avatar" class="img-user border border-secondary rounded-circle bg-white" width="100" height="100">
-                </div>
+<div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
+    <div style="width: 100px; height: 100px; overflow: hidden; border-radius: 50%; position: relative;">
+        <img src="{{ $user->image }}" alt="Avatar" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+</div>
+
                 <form method="POST" action="{{ route('profile.update') }}" enctype="multipart/form-data">
                     @csrf
                     @method('POST')
@@ -42,9 +45,6 @@
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $user->email) }}" @required(true)>
-                                <small class="text-muted text-warning">
-                                    This email will be used as a username
-                                </small>
                                 @error('email')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror

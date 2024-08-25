@@ -75,7 +75,12 @@
                 <div class="fw-normal">
                     {!! $product->description !!}
                 </div>
-                <div class="mt-4 fw-semibold">Kategori: <a href="{{ route('product-category.detail', $category->slug) }}" class="btn btn-danger btn-sm">{{ $category->name }}</a></div>
+                <div class="mt-4 fw-semibold d-flex align-items-center">
+                    <span>Kategori:</span>
+                    <a href="{{ route('product-category.detail', $category->slug) }}" class="btn btn-danger btn-sm ms-2">
+                        {{ $category->name }}
+                    </a>
+                </div>
             </div>
         </div>
 

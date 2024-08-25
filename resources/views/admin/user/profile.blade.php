@@ -3,7 +3,13 @@
 @section('content')
     <x-form-section title="{{ $title }}">
         <div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
-            <img src="{{ $user->image }}" alt="Avatar" class="img-user border border-secondary rounded-circle bg-white" width="100" height="100">
+            <img src="{{ $user->image }}" 
+                id="profileImage" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false" 
+                alt="User Profile" 
+                class="img-user rounded-circle border border-secondary bg-white"
+                style="width: 100px; height: 100px; object-fit: cover;">
         </div>
         <form method="POST" action="{{ route('admin.profile.update') }}" enctype="multipart/form-data">
             @csrf

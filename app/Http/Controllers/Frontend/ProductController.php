@@ -26,9 +26,11 @@ class ProductController extends Controller
 
         $products = Product::query()
             ->with('category')
+            ->where('status', true)
             ->when($search, function ($query, $search) {
                 $query->where('name', 'like', '%' . strtolower($search) . '%');
             })
+            ->orderBy('created_at', 'desc')
             ->paginate(12);
 
         return view('frontend.product.index', [
@@ -39,8 +41,16 @@ class ProductController extends Controller
 
     public function detail(string $category, string $product)
     {
-        $product = Product::where('slug', $product)->firstOrFail();
-        $category = ProductCategory::where('slug', $category)->firstOrFail();
+        $category = ProductCategory::where('slug', $category)
+            ->where('is_active', true)
+            ->firstOrFail();
+            
+        $product = Product::where('slug', $product)
+            ->where('status', true)
+            ->whereHas('category', function ($query) use ($category) {
+            $query->where('id', $category->id);
+        })
+        ->firstOrFail();
 
         $product->hashId = $this->hashId->encode($product->id);
 

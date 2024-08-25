@@ -146,9 +146,15 @@
             var id = $('#fileId').val();
             var productId = $('#productId').val();
             var formData = new FormData($('#form-modalAction')[0]);
+            var url = '{{ url('${productId}/work-instructions') }}';
+        
+            if (id) {
+                url += `/${id}`;
+            }
+            
             $.ajax({
                 data: formData,
-                url: `{{ url('${productId}/work-instructions') }}/${id}`,
+                url: url,
                 type: "POST",
                 processData: false,
                 contentType: false,

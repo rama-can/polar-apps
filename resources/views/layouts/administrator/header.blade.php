@@ -147,7 +147,13 @@
                         <span></span>
                         <div>{{ Auth::user()->name ?? 'User' }}</div>
                     </div>
-                    <img class="img-user border rounded-circle ms-2" src="{{ Auth::user()->image }}" alt="user" srcset="">
+                    <img src="{{ Auth::user()->image }}" 
+                        id="profileImage" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false" 
+                        alt="User Profile" 
+                        class="img-user rounded-circle border border-secondary bg-white"
+                        style="width: 40px; height: 40px; object-fit: cover;">
                 </a>
                 <ul class="dropdown-menu small">
                     <li class="menu-content ps-menu">

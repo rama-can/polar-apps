@@ -51,7 +51,7 @@ class CalibrationLogbookExport implements FromCollection, WithHeadings, WithMapp
             Carbon::parse($calibrationLogbook->date)->format('d-m-Y'),
             $calibrationLogbook->technician,
             $calibrationLogbook->institution,
-            $calibrationLogbook->document,
+            url($calibrationLogbook->document)
         ];
     }
 }

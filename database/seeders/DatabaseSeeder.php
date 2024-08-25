@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
             // CalibrationLogbookSeeder::class,
         ]);
 
-        \App\Models\UsageLogbook::factory(100)->create();
-        \App\Models\CalibrationLogbook::factory(100)->create();
+        //\App\Models\UsageLogbook::factory(100)->create();
+        //\App\Models\CalibrationLogbook::factory(100)->create();
     }
 }
