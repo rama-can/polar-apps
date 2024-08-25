@@ -146,10 +146,11 @@
                 $(this).addClass('disabled');
                 var id = $('#usageLogBook').val();
                 var productId = '{{ $hashId }}';
+                var url = id ? `{{ url('${productId}/usage-logbooks') }}/${id}` : `{{ url('${productId}/usage-logbooks') }}`;
 
                 $.ajax({
                     data: $('#form-modalAction').serialize(),
-                    url: `{{ url('${productId}/usage-logbooks') }}/${id}`,
+                    url: url,
                     type: "POST",
                     dataType: 'json',
                     success: function(response) {

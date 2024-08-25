@@ -11,14 +11,19 @@ class ProductCategoryController extends Controller
     {
         return view('frontend.product-category.index', [
             'title' => 'Kategori Peralatan Laboratorium',
-            'categories' => ProductCategory::all()
+            'categories' => ProductCategory::where('is_active', true)->get()
         ]);
     }
 
     public function detail($slug)
     {
-        $category = ProductCategory::where('slug', $slug)->firstOrFail();
-        $products = $category->products()->where('status', true)->paginate(8);
+        $category = ProductCategory::where('slug', $slug)
+                        ->where('is_active', true)
+                        ->firstOrFail();
+            
+        $products = $category->products()->where('status', true)
+                        ->orderBy('created_at', 'desc')
+                        ->paginate(8);
 
         return view('frontend.product-category.detail', [
             'title' => 'Peralatan Laboratorium Kategori', $category->name,

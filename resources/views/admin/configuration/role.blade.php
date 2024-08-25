@@ -142,10 +142,11 @@
                 $(this).html('Sending..');
                 $(this).addClass('disabled');
                 var id = $('#roleId').val();
+                var url = id ? `{{ url('admin/roles') }}/${id}` : `{{ url('admin/roles') }}`;
 
                 $.ajax({
                     data: $('#form-modalAction').serialize(),
-                    url: `{{ url('admin/roles/') }}/${id}`,
+                    url: url,
                     type: "POST",
                     dataType: 'json',
                     success: function(response) {

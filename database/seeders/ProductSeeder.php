@@ -84,45 +84,45 @@ class ProductSeeder extends Seeder
                 ]);
 
                 // Create new ProductImage if product was created successfully
-                if ($product) {
-                    $productId = $product->id;
-                    $imageUrls = explode(', ', $images);
-                    foreach ($imageUrls as $image) {
-                        ProductImage::create([
-                            'product_id' => $productId,
-                            'url' => $image,
-                        ]);
-                    }
-                }
-
                 // if ($product) {
+                //     $productId = $product->id;
                 //     $imageUrls = explode(', ', $images);
-
-                //     foreach ($imageUrls as $imageUrl) {
-                //         $filename = basename(parse_url($imageUrl, PHP_URL_PATH));
-                //         $storagePath = 'images/products/' . $filename;
-
-                //         try {
-                //             // Mengunduh gambar menggunakan Guzzle
-                //             $response = $client->get($imageUrl, ['sink' => storage_path('app/public/' . $storagePath)]);
-
-                //             // Cek apakah unduhan berhasil
-                //             if ($response->getStatusCode() === 200) {
-                //                 // Menyimpan informasi gambar ke database
-                //                 ProductImage::create([
-                //                     'product_id' => $product->id,
-                //                     'url' => Storage::url($storagePath),
-                //                 ]);
-                //             } else {
-                //                 // Tangani status HTTP yang tidak berhasil jika perlu
-                //                 echo "Gagal mengunduh gambar dari URL: $imageUrl\n";
-                //             }
-                //         } catch (\Exception $e) {
-                //             // Tangani kesalahan saat mengunduh gambar
-                //             echo "Kesalahan saat mengunduh gambar dari URL: $imageUrl. Kesalahan: " . $e->getMessage() . "\n";
-                //         }
+                //     foreach ($imageUrls as $image) {
+                //         ProductImage::create([
+                //             'product_id' => $productId,
+                //             'url' => $image,
+                //         ]);
                 //     }
                 // }
+
+                if ($product) {
+                    $imageUrls = explode(', ', $images);
+
+                    foreach ($imageUrls as $imageUrl) {
+                        $filename = basename(parse_url($imageUrl, PHP_URL_PATH));
+                        $storagePath = 'images/products/' . $filename;
+
+                        try {
+                            // Mengunduh gambar menggunakan Guzzle
+                            $response = $client->get($imageUrl, ['sink' => storage_path('app/public/' . $storagePath)]);
+
+                            // Cek apakah unduhan berhasil
+                            if ($response->getStatusCode() === 200) {
+                                // Menyimpan informasi gambar ke database
+                                ProductImage::create([
+                                    'product_id' => $product->id,
+                                    'url' => Storage::url($storagePath),
+                                ]);
+                            } else {
+                                
+                                echo "Gagal mengunduh gambar dari URL: $imageUrl\n";
+                            }
+                        } catch (\Exception $e) {
+                            // Tangani kesalahan saat mengunduh gambar
+                            echo "Kesalahan saat mengunduh gambar dari URL: $imageUrl. Kesalahan: " . $e->getMessage() . "\n";
+                        }
+                    }
+                }
             }
         }
     }

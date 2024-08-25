@@ -47,14 +47,14 @@ class NavigationSeeder extends Seeder
                 'main_menu' => 1,
                 'type_menu' => 'child',
             ],
-            [
-                'name' => 'Navigation',
-                'url' => 'admin/navigations',
-                'permission' => 'navigations',
-                'icon' => '',
-                'main_menu' => 1,
-                'type_menu' => 'child',
-            ],
+            // [
+            //     'name' => 'Navigation',
+            //     'url' => 'admin/navigations',
+            //     'permission' => 'navigations',
+            //     'icon' => '',
+            //     'main_menu' => 1,
+            //     'type_menu' => 'child',
+            // ],
             [
                 'name' => 'Users',
                 'url' => 'admin/users',

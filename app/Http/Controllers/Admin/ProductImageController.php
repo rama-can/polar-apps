@@ -42,7 +42,7 @@ class ProductImageController extends Controller
                         $actionBtn = '<button type="button" name="edit" data-id="' . $row->id . '" class="editImage btn btn-warning btn-sm me-2"><i class="ti-pencil-alt"></i></button>';
                     }
                     if (Gate::allows('delete product-images')) {
-                        $actionBtn = '<button type="button" name="delete" data-id="' . $row->id . '" class="deleteImage btn btn-danger btn-sm"><i class="ti-trash"></i></button>';
+                        $actionBtn .= '<button type="button" name="delete" data-id="' . $row->id . '" class="deleteImage btn btn-danger btn-sm"><i class="ti-trash"></i></button>';
                     }
                     return '<div class="d-flex">' . $actionBtn . '</div>';
                 })

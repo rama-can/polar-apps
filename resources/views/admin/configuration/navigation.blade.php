@@ -162,10 +162,11 @@
                 $(this).html('Sending..');
                 $(this).addClass('disabled');
                 var id = $('#navigationId').val();
+                var url = id ? `{{ url('admin/navigations') }}/${id}` : `{{ url('admin/navigations') }}`;
 
                 $.ajax({
                     data: $('#form-modalAction').serialize(),
-                    url: `{{ url('admin/navigations/') }}/${id}`,
+                    url: url,
                     type: "POST",
                     dataType: 'json',
                     success: function(response) {

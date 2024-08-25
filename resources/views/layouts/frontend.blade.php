@@ -107,7 +107,6 @@
             text-decoration: none;
             padding: 10px 15px; /* Adjust padding on hover */
         }
-
     </style>
 
     <!-- Scripts -->
@@ -138,7 +137,14 @@
                 </li>
             </ul>
         @else
-            <img src="{{ Auth::user()->image }}" id="profileImage" data-bs-toggle="dropdown" aria-expanded="false" alt="User Profile" class="img-user border border-secondary rounded-circle bg-white">
+            <img src="{{ Auth::user()->image }}" 
+                id="profileImage" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false" 
+                alt="User Profile" 
+                class="img-user rounded-circle border border-secondary bg-white"
+                style="width: 50px; height: 50px; object-fit: cover;">
+
             <ul class="dropdown-menu dropdown-menu-end border border-primary" aria-labelledby="profileImage">
                 <li>
                     <a class="dropdown-item" href="{{ route('profile') }}">

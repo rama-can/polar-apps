@@ -56,7 +56,7 @@ class User extends Authenticatable
 
     public function getImageAttribute()
     {
-        $defaultImage = asset('storage/images/users/avatar.webp');
+        $defaultImage = asset('assets/images/avatar.png');
 
         if ($this->profile && $this->profile->avatar) {
             $filePath = 'public/images/users/' . $this->profile->avatar;

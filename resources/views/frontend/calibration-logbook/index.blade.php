@@ -165,9 +165,11 @@
                 var id = $('#calLogBookId').val();
                 var productId = '{{ $hashId }}';
                 var formData = new FormData($('#form-modalAction')[0]);
+                var url = id ? `{{ url('${productId}/calibration-logbooks') }}/${id}` : `{{ url('${productId}/calibration-logbooks') }}`;
+                
                 $.ajax({
                     data: formData,
-                    url: `{{ url('${productId}/calibration-logbooks') }}/${id}`,
+                    url: url,
                     type: "POST",
                     processData: false,
                     contentType: false,

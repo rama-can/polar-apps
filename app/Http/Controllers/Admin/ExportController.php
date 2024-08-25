@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Models\UsageLogbook;
+use App\Models\CalibrationLogbook;
 use Illuminate\Http\Request;
 use App\Exports\UsageLogbookExport;
 use App\Http\Controllers\Controller;
@@ -26,9 +27,6 @@ class ExportController extends Controller
     public function usageLogbook(Request $request)
     {
         $data = UsageLogbook::where('product_id', $request->product_id)->firstOrFail();
-        if (!$data) {
-            return redirect()->back()->with('error', 'Data not found');
-        }
 
         $request->validate([
             'from_date_usage' => 'required|date',
@@ -45,10 +43,7 @@ class ExportController extends Controller
 
     public function calibrationLogbook(Request $request)
     {
-        $data = UsageLogbook::where('product_id', $request->product_id)->firstOrFail();
-        if (!$data) {
-            return redirect()->back()->with('error', 'Data not found');
-        }
+        $data = CalibrationLogbook::where('product_id', $request->product_id)->firstOrFail();
 
         $request->validate([
             'from_date_usage' => 'required|date',

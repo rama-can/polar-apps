@@ -68,9 +68,10 @@
             var id = $('#fileId').val();
             var productId = $('#productId').val();
             var formData = new FormData($('#form-modalAction')[0]);
+            var url = id ? `{{ url('admin/${productId}/work-instructions') }}/${id}` : `{{ url('admin/${productId}/work-instructions') }}`;
             $.ajax({
                 data: formData,
-                url: `{{ url('admin/${productId}/work-instructions') }}/${id}`,
+                url: url,
                 type: "POST",
                 processData: false,
                 contentType: false,
