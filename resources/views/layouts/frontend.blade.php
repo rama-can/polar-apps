@@ -137,11 +137,11 @@
                 </li>
             </ul>
         @else
-            <img src="{{ Auth::user()->image }}" 
-                id="profileImage" 
-                data-bs-toggle="dropdown" 
-                aria-expanded="false" 
-                alt="User Profile" 
+            <img src="{{ Auth::user()->image }}"
+                id="profileImage"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                alt="User Profile"
                 class="img-user rounded-circle border border-secondary bg-white"
                 style="width: 50px; height: 50px; object-fit: cover;">
 

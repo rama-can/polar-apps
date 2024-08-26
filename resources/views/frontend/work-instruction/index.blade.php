@@ -147,11 +147,11 @@
             var productId = $('#productId').val();
             var formData = new FormData($('#form-modalAction')[0]);
             var url = '{{ url('${productId}/work-instructions') }}';
-        
+
             if (id) {
                 url += `/${id}`;
             }
-            
+
             $.ajax({
                 data: formData,
                 url: url,
@@ -167,6 +167,10 @@
                     location.reload();
                 },
                 error: function(response) {
+                    $('#save-modal').html('Save');
+                    $('#save-modal').removeClass('disabled');
+                    var message = response.responseJSON.message || 'Terjadi kesalahan';
+                    showToast('warning', message);
                     var errors = response.responseJSON.errors;
                     if (errors) {
                         Object.keys(errors).forEach(function(key) {
@@ -175,8 +179,6 @@
                                 errorMessage);
                         });
                     }
-                    $('#save-modal').html('Save');
-                    $('#save-modal').removeClass('disabled');
                 }
             });
         });
