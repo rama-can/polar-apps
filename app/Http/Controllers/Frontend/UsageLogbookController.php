@@ -76,7 +76,7 @@ class UsageLogbookController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request, string $product)
+    public function store(UsageLogbookRequest $request, string $product)
     {
         $productId = $this->hashId->decode($product);
         $product = Product::where('id', $productId)->firstOrFail();
@@ -86,6 +86,7 @@ class UsageLogbookController extends Controller
                 'message' => 'Product not found'
             ]);
         }
+
         $result = $this->usageLogbook->create($request->all(), $product->id);
         return response()->json($result);
     }

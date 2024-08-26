@@ -31,7 +31,7 @@ class WorkInstructionController extends Controller
     {
         $productId = $this->hashId->decode($product);
         $product = Product::where('id', $productId)->firstOrFail();
-    
+
         if(!$product){
             abort(404);
         }
@@ -64,6 +64,13 @@ class WorkInstructionController extends Controller
      */
     public function store(WorkInstructionRequest $request)
     {
+        $file = $request->file('file');
+        if (!$file) {
+            return response()->json([
+                'status' => false,
+                'message' => 'File tidak boleh kosong'
+            ], 422);
+        }
         $result = $this->workIns->store($request->all());
         return response()->json($result);
     }
@@ -96,7 +103,14 @@ class WorkInstructionController extends Controller
      */
     public function update(WorkInstructionRequest $request, string $product, string $workInstruction)
     {
-        // Panggil metode update dari WorkInstructionService
+        $file = $request->file('file');
+        if (!$file) {
+            return response()->json([
+                'status' => false,
+                'message' => 'File tidak boleh kosong'
+            ], 422);
+        }
+
         $result = $this->workIns->update($workInstruction, $request->all());
 
         return response()->json($result);
