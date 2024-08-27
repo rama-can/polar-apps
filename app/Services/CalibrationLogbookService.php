@@ -62,7 +62,7 @@ class CalibrationLogbookService
                 $fileName = 'calibration-logbook-' . time() . '.' . $extension;
 
                 // Store the file with the custom file name
-                $path = $data['document']->storeAs('images/calibration-logbook', $fileName, 'public');
+                $path = $data['document']->storeAs('document/calibration-logbook', $fileName, 'public');
 
                 // Get the file URL
                 $url = Storage::url($path);
@@ -109,7 +109,7 @@ class CalibrationLogbookService
                 $fileName = 'calibration-logbook-' . time() . '.' . $extension;
 
                 // Store the file with the custom file name
-                $path = $data['document']->storeAs('images/calibration-logbook', $fileName, 'public');
+                $path = $data['document']->storeAs('document/calibration-logbook', $fileName, 'public');
 
                 // Get the file URL
                 $url = Storage::url($path);

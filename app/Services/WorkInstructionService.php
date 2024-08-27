@@ -58,7 +58,7 @@ class WorkInstructionService
         try {
             if (isset($data['file']) && $data['file']->isValid()) {
                 // Simpan file
-                $path = $data['file']->store('images/work-instructions', 'public');
+                $path = $data['file']->store('document/work-instructions', 'public');
                 $url = Storage::url($path);
             } else {
                 $url = null; // Handle jika tidak ada file
@@ -94,7 +94,7 @@ class WorkInstructionService
 
             if (isset($data['file']) && $data['file']->isValid()) {
                 // Simpan file baru
-                $path = $data['file']->store('images/work-instructions', 'public');
+                $path = $data['file']->store('document/work-instructions', 'public');
                 $fileUrl = Storage::url($path);
 
                 // Hapus file lama jika ada
