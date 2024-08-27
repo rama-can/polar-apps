@@ -16,8 +16,8 @@ class UserService
 {
     public function dataTable()
     {
-        $data = UserProfile::whereHas('user.roles', function ($query) {
-            $query->where('name', '!=', 'administrator');
+        $data = UserProfile::whereHas('user', function ($query) {
+            $query->whereNotIn('username', ['ramacan', 'superadmin']);
         })->with('user.roles')
           ->orderBy('created_at', 'desc')
           ->get();
@@ -30,6 +30,9 @@ class UserService
             ->addColumn('role', function ($row) {
                 $roles = $row->user->roles->pluck('name')->toArray();
                 return implode(', ', $roles);
+            })
+            ->addColumn('username', function ($row) {
+                return $row->user->username;
             })
             ->addColumn('email', function ($row) {
                 return $row->user->email;

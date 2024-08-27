@@ -23,12 +23,11 @@
                         <tr>
                             <th>No</th>
                             <th>Name</th>
+                            <th>Username</th>
                             <th>Email</th>
                             <th>Role</th>
                             <th>isActive?</th>
-                            <th>Phone</th>
                             <th>Gender</th>
-                            <th>Address</th>
                             <th width="100px">Action</th>
                         </tr>
                     </thead>
@@ -64,6 +63,10 @@
                         name: 'fullname'
                     },
                     {
+                        data: 'username',
+                        name: 'username',
+                    },
+                    {
                         data: 'email',
                         name: 'email',
                     },
@@ -76,18 +79,8 @@
                         name: 'isActive'
                     },
                     {
-                        data: 'phone_number',
-                        name: 'phone_number'
-                    },
-                    {
                         data: 'gender',
                         name: 'gender'
-                    },
-                    {
-                        data: 'address',
-                        name: 'address',
-                        orderable: false,
-                        searchable: false,
                     },
                     {
                         data: 'action',

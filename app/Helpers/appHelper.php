@@ -26,6 +26,10 @@ if (!function_exists('getParentMenus')) {
 if (!function_exists('getRoles')) {
     function getRoles()
     {
-        return Role::where('name', '!=', 'administrator')->get();
+        if (auth()->user()->hasRole('administrator')) {
+            return Role::all();
+        } else {
+            return Role::where('name', '!=', 'administrator')->get();
+        }
     }
 }

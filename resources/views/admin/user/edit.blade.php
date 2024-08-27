@@ -3,11 +3,11 @@
 @section('content')
     <x-form-section title="{{ $title }}">
         <div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
-            <img src="{{ $user->image }}" 
-                id="profileImage" 
-                data-bs-toggle="dropdown" 
-                aria-expanded="false" 
-                alt="User Profile" 
+            <img src="{{ $user->image }}"
+                id="profileImage"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                alt="User Profile"
                 class="img-user rounded-circle border border-secondary bg-white"
                 style="width: 100px; height: 100px; object-fit: cover;">
         </div>
@@ -148,7 +148,7 @@
                             @foreach (getRoles() as $role)
                                 <option value="{{ $role->id }}"
                                     {{ optional($user->roles)->contains('id', $role->id) ? 'selected' : '' }}>
-                                    {{ $role->name }}
+                                    {{ ucwords($role->name) }}
                                 </option>
                             @endforeach
                         </select>
