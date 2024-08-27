@@ -4,12 +4,15 @@ import path from 'path'
 
 export default defineConfig({
     plugins: [
-        laravel([
-            'resources/js/app.js',
-            'resources/sass/app.scss',
-            'resources/css/app.css',
-            'resources/css/auth.css'
-        ]),
+        laravel({
+            input: [
+                'resources/js/app.js',
+                'resources/sass/app.scss',
+                'resources/css/app.css',
+                'resources/css/auth.css'
+            ],
+            refresh: true,
+        }),
     ],
     resolve: {
         alias: {
