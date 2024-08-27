@@ -71,6 +71,7 @@ Route::middleware('auth', 'isActive')
 
         Route::resource('product-images', ProductImageController::class)->except('show');
         Route::resource('product-categories', ProductCategoryController::class)->except('show');
+        Route::get('/product-categories/{productCategory}/products', [ProductCategoryController::class, 'product'])->name('product-categories.products');
         Route::get('/import', [ImportController::class, '__invoke'])->name('import');
 
         Route::resource('{product}/usage-logbooks', UsageLogbookController::class)->except('show');

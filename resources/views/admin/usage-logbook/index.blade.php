@@ -10,24 +10,28 @@
                         @csrf
                         <input type="text" name="product_id" id="product_id" value="{{ $product->id }}" hidden>
                         <div class="flex-grow-1">
-                            <label for="from_date_usage" class="form-label">From Date</label>
+                            <label for="from_date" class="form-label">From Date</label>
                             <div class="input-group date" data-provide="datepicker">
-                                <input type="text" class="form-control datepicker" placeholder="yyyy/mm/dd" name="from_date_usage" value="">
+                                <input type="text" class="form-control datepicker" placeholder="yyyy/mm/dd" name="from_date" value="" required>
                                 <div class="btn border">
                                     <i class="far fa-calendar-alt"></i>
                                 </div>
                             </div>
-                            <small class="text-danger" id="from_date_usage-error"></small>
+                            @if ($errors->has('from_date'))
+                                <small class="text-danger">{{ $errors->first('from_date') }}</small>
+                            @endif
                         </div>
                         <div class="flex-grow-1">
-                            <label for="to_date_usage" class="form-label">To Date</label>
+                            <label for="to_date" class="form-label">To Date</label>
                             <div class="input-group date" data-provide="datepicker">
-                                <input type="text" class="form-control datepicker" placeholder="yyyy/mm/dd" name="to_date_usage" value="">
+                                <input type="text" class="form-control datepicker" placeholder="yyyy/mm/dd" name="to_date" value="" required>
                                 <div class="btn border">
                                     <i class="far fa-calendar-alt"></i>
                                 </div>
                             </div>
-                            <small class="text-danger" id="to_date_usage-error"></small>
+                            @if ($errors->has('to_date'))
+                                <small class="text-danger">{{ $errors->first('to_date') }}</small>
+                            @endif
                         </div>
                         <div class="flex-shrink-0 mt-3 mt-md-4">
                             <button type="submit" class="btn btn-primary btn-sm">Export</button>

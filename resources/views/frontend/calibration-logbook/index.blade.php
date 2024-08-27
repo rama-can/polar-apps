@@ -1,4 +1,23 @@
 <x-front-layout :title="$title">
+    @push('styles')
+    <style>
+        .pdf-viewer-container {
+            width: 100%;
+            height: 75vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .pdf-viewer-container canvas {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+    @endpush
     <div class="container mt-5 border rounded-3">
         <div class="row">
             <h2 class="text-center mt-4 fw-bold">{{ $title ?? '' }}</h2>
@@ -40,15 +59,15 @@
     <x-modal id="modalAction" title="Modal title" size="lg"></x-modal>
     <!-- Modal Preview Document -->
     <div class="modal fade" id="previewDocumentModal" tabindex="-1" aria-labelledby="previewDocumentModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="previewDocumentModalLabel">Preview Document</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <iframe id="documentPreview" src="" style="width: 100%; height: 65vh;" frameborder="0" loading="lazy"
-                    title="PDF-file" type="application/pdf"></iframe>
+                    <div id="pdfViewerContainer" class="pdf-viewer-container">
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -57,6 +76,7 @@
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
     <script type="text/javascript">
         $(function() {
             // ajax table
@@ -86,19 +106,60 @@
                     { data: 'action', name: 'action', orderable: false, searchable: false },
                 ]
             });
-        // Event handler for preview button click
-        $(document).on('click', '.previewDocument', function() {
-            var documentId = $(this).data('id');
 
-            // Create the URL for document preview
-            var documentUrl = documentId; // Adjust the URL as needed
+            $(document).on('click', '.previewDocument', function() {
+                var baseUrl = '{{ url('/') }}';
+                var relativeUrl = $(this).data('id');
 
-            // Set the src attribute of the iframe
-            $('#documentPreview').attr('src', documentUrl);
+                var url = new URL(relativeUrl, baseUrl).href;
 
-            // Show the modal
-            $('#previewDocumentModal').modal('show');
-        });
+                if (!url.endsWith('.pdf')) {
+                    showToast('error', 'Invalid URL or file type');
+                    return;
+                }
+
+                if (typeof pdfjsLib === 'undefined') {
+                    showToast('error', 'Failed to load PDF document');
+                    return;
+                }
+
+                pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+
+                var loadingTask = pdfjsLib.getDocument(url);
+                loadingTask.promise.then(function(pdf) {
+                    $('#pdfViewerContainer').html('');
+
+                    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+                        pdf.getPage(pageNumber).then(function(page) {
+                            var viewport = page.getViewport({ scale: 1 });
+                            var modalWidth = $('#previewDocumentModal .modal-body').width();
+                            var scale = modalWidth / viewport.width;
+
+                            viewport = page.getViewport({ scale: scale });
+
+                            var canvas = document.createElement('canvas');
+                            var context = canvas.getContext('2d');
+                            canvas.height = viewport.height;
+                            canvas.width = viewport.width;
+
+                            var renderContext = {
+                                canvasContext: context,
+                                viewport: viewport
+                            };
+                            var renderTask = page.render(renderContext);
+                            renderTask.promise.then(function () {
+                                $('#pdfViewerContainer').append(canvas);
+                            });
+                        });
+                    }
+                }).catch(function(error) {
+                    console.error('Error loading PDF:', error);
+                    showToast('error', 'Failed to load PDF document');
+                });
+
+                $('#previewDocumentModal').modal('show');
+            });
+
             // create
             $('#createLogbook').click(function() {
                 $.get("{{ route('calibration-logbooks.create', $hashId) }}", function(response) {
@@ -166,7 +227,7 @@
                 var productId = '{{ $hashId }}';
                 var formData = new FormData($('#form-modalAction')[0]);
                 var url = id ? `{{ url('${productId}/calibration-logbooks') }}/${id}` : `{{ url('${productId}/calibration-logbooks') }}`;
-                
+
                 $.ajax({
                     data: formData,
                     url: url,
