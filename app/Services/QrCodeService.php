@@ -12,10 +12,11 @@ class QrCodeService
         try {
             $data = app(HashIdService::class)->encode($product->id);
             $url = route('qrcode.scan', $data);
-
+            $logo = '/public/assets/images/dilab-qrcode-logo.jpeg';
             $data = QrCode::size(512)
                 ->format('png')
-                ->merge(public_path('assets/images/qrcode-logo.png'), 0.3, true)->size(1000)
+                ->margin(1)
+                ->merge($logo)
                 ->errorCorrection('M')
                 ->generate($url);
 
