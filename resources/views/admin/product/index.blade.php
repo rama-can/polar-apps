@@ -88,12 +88,19 @@
 
 
         $(function() {
+            var url;
+
+            @if(isset($category))
+                url = "{{ route('admin.product-categories.products', $category->slug) }}";
+            @else
+                url = "{{ route('admin.products.index') }}";
+            @endif
             // ajax table
             var table = $('.dataTable').DataTable({
                 processing: true,
                 serverSide: true,
                 ajax: {
-                    url: "{{ route('admin.products.index') }}",
+                    url: url,
                     error: function(xhr, error, code) {
                         console.log(xhr.responseText);
                         alert('AJAX Error: ' + xhr.responseText);

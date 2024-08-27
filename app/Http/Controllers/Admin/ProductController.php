@@ -108,4 +108,21 @@ class ProductController extends Controller
 
         return response()->json($result);
     }
+
+    // /**
+    //  * Retrieve the products for a specific category.
+    //  *
+    //  * @param string $id The ID of the category.
+    //  * @return void
+    //  */
+    // public function showByCategory(Request $request, string $id)
+    // {
+    //     $category = ProductCategory::where('slug', $id)->first();
+    //     $title = 'Products in ' . $category->name;
+    //     if ($request->ajax()) {
+    //         return $this->productService->datatable($category->id);
+    //     }
+
+    //     return view('admin.product.index', compact('title'));
+    // }
 }

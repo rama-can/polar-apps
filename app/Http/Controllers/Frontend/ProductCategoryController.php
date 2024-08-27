@@ -20,8 +20,9 @@ class ProductCategoryController extends Controller
         $category = ProductCategory::where('slug', $slug)
                         ->where('is_active', true)
                         ->firstOrFail();
-            
+
         $products = $category->products()->where('status', true)
+                        ->with('category')
                         ->orderBy('created_at', 'desc')
                         ->paginate(8);
 

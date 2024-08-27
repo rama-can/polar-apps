@@ -7,18 +7,23 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\ProductCategoryRequest;
 use App\Models\ProductCategory;
 use App\Services\ProductCategoryService;
+use App\Services\ProductService;
 
 class ProductCategoryController extends Controller
 {
     protected $productCategoryService;
+    protected $productService;
 
-    public function __construct(ProductCategoryService $productCategoryService)
-    {
+    public function __construct(
+        ProductCategoryService $productCategoryService,
+        ProductService $productService
+    ) {
         $this->middleware('permission:read product-categories');
         $this->middleware('permission:create product-categories')->only(['create', 'store']);
         $this->middleware('permission:update product-categories')->only(['edit', 'update']);
         $this->middleware('permission:delete product-categories')->only(['destroy']);
         $this->productCategoryService = $productCategoryService;
+        $this->productService = $productService;
     }
 
     /**
@@ -87,5 +92,22 @@ class ProductCategoryController extends Controller
     {
         $result = $this->productCategoryService->destroy($productCategory);
         return response()->json($result);
+    }
+
+    /**
+     * Retrieve the products for a specific category.
+     *
+     * @param string $id The ID of the category.
+     * @return void
+     */
+    public function product(Request $request, string $slug)
+    {
+        $category = ProductCategory::where('slug', $slug)->firstOrFail();
+        $title = 'Products in ' . $category->name;
+        if ($request->ajax()) {
+            return $this->productService->datatable($category->id);
+        }
+
+        return view('admin.product.index', compact('title', 'category'));
     }
 }

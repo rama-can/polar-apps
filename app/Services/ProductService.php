@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Models\Product;
 use App\Models\ProductImage;
 use Illuminate\Support\Carbon;
+use App\Models\ProductCategory;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Storage;
@@ -13,9 +14,19 @@ use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class ProductService
 {
-    public function dataTable()
+    public function dataTable(string $category = null)
     {
+        // dd($category);
         $data = Product::with('category')
+            ->when($category, function ($query) use ($category) {
+                return $query->where('product_category_id', $category);
+                // $category = ProductCategory::where('slug', $category)->first();
+
+                // if ($category) {
+                //     return $query->where('product_category_id', $category->id);
+                // }
+                // return $query;
+            })
             ->orderBy('created_at', 'desc')
             ->get();
 
@@ -24,8 +35,8 @@ class ProductService
             ->addColumn('status', function ($row) {
                 return $row->status ? '<span class="badge bg-success">Active</span>' : '<span class="badge bg-danger">Inactive</span>';
             })
-            ->addColumn('category', function ($row) {
-                return $row->category->name;
+            ->editColumn('category', function ($row) {
+                return '<a href="' . route('admin.product-categories.products', $row->category->slug) . '" class="text-decoration-none">' . $row->category->name . '</a>';
             })
             ->editColumn('created_at', function ($row) {
                 return Carbon::parse($row->created_at)->setTimezone('Asia/Jakarta')->format('d-m-Y');

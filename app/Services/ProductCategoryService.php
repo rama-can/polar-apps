@@ -18,6 +18,9 @@ class ProductCategoryService
             ->addColumn('isActive', function ($row) {
                 return $row->is_active ? '<span class="badge bg-success">Active</span>' : '<span class="badge bg-danger">Inactive</span>';
             })
+            ->editColumn('name', function ($row) {
+                return '<a href="' . route('admin.product-categories.products', $row->slug) . '" class="text-decoration-none">' . $row->name . '</a>';
+            })
             ->editColumn('created_at', function ($row) {
                 return Carbon::parse($row->created_at)->setTimezone('Asia/Jakarta')->format('d-m-Y H:i:s');
             })
@@ -34,7 +37,7 @@ class ProductCategoryService
                 }
                 return '<div class="d-flex">' . $actionBtn . '</div>';
             })
-            ->rawColumns(['action', 'isActive'])
+            ->rawColumns(['action', 'isActive', 'name'])
             ->make(true);
     }
 
