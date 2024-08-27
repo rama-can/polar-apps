@@ -21,8 +21,5 @@ jobs:
           timeout: 60000
           exclude: |
             **/.git*
-            **/.env*
             **/node_modules/**
-            **/storage/**
-            **/vendor/**
             **/public/storage/**

@@ -3,11 +3,11 @@
 @section('content')
     <x-form-section title="{{ $title }}">
         <div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
-            <img src="{{ $user->image }}" 
-                id="profileImage" 
-                data-bs-toggle="dropdown" 
-                aria-expanded="false" 
-                alt="User Profile" 
+            <img src="{{ $user->image }}"
+                id="profileImage"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                alt="User Profile"
                 class="img-user rounded-circle border border-secondary bg-white"
                 style="width: 100px; height: 100px; object-fit: cover;">
         </div>
@@ -44,9 +44,6 @@
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $user->email) }}" @required(true)>
-                        <small class="text-muted text-warning">
-                            This email will be used as a username
-                        </small>
                         @error('email')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
