@@ -1,34 +1,34 @@
-# name: 🚀 Deployment on push to branch
+name: 🚀 Deployment on push to branch
 
-# on:
-#   push:
-#     branches: [main]
+on:
+  push:
+    branches: [main]
 
-# jobs:
-#   web-deploy:
-#     name: 🎉 Deploy
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: 🚚 Get latest code
-#         uses: actions/checkout@v4
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
 
-#       - name: 🔨 Build Project
-#         run: |
-#           npm install
-#           npm run build
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
 
-#       - name: 📂 Sync files
-#         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-#         with:
-#           server: ${{ secrets.FTP_SERVER }}
-#           username: ${{ secrets.FTP_USERNAME }}
-#           password: ${{ secrets.FTP_PASSWORD }}
-#           protocol: ftps
-#           port: 21
-#           log-level: standard
-#           timeout: 60000
-#           exclude: |
-#             **/.git*
-#             **/.git*/**
-#             **/node_modules/**
-#             **/storage/**
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          log-level: standard
+          timeout: 60000
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/storage/**
