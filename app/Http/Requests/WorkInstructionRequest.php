@@ -22,7 +22,7 @@ class WorkInstructionRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'file' => 'mimes:pdf',
+            'file' => 'file|max:20480|mimes:pdf',
             'product_id' => 'required|exists:products,id',
         ];
     }
