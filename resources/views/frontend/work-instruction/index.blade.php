@@ -120,7 +120,7 @@
         // create
         $('#createWorkIns').click(function() {
             $.get("{{ route('work-instructions.create', $product->id) }}", function(response) {
-                $('#modalAction .modal-title').html('Add Product Category');
+                $('#modalAction .modal-title').html('Add Work Instruction');
                 $('#modalAction .modal-body').html(response);
 
                 $('#modalAction').modal('show');
