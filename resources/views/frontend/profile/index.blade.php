@@ -10,12 +10,15 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-<div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
-    <div style="width: 100px; height: 100px; overflow: hidden; border-radius: 50%; position: relative;">
-        <img src="{{ $user->image }}" alt="Avatar" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
-    </div>
-</div>
-
+                <div class="mb-3 mb-md-0 d-flex justify-content-center align-items-center flex-grow-1">
+                    <img src="{{ $user->image }}"
+                        id="profileImage"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        alt="User Profile"
+                        class="img-user rounded-circle border border-secondary bg-white"
+                        style="width: 100px; height: 100px; object-fit: cover;">
+                </div>
                 <form method="POST" action="{{ route('profile.update') }}" enctype="multipart/form-data">
                     @csrf
                     @method('POST')
