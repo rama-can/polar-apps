@@ -1,15 +1,11 @@
 {
-  "public/assets/images/nature.jpeg": {
-    "file": "assets/nature-CekbwRE4.jpeg",
-    "src": "public/assets/images/nature.jpeg"
-  },
   "resources/css/app.css": {
     "file": "assets/app-vvl1gulq.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/css/auth.css": {
-    "file": "assets/auth-DudzIaQb.css",
+    "file": "assets/auth-cZ4chslt.css",
     "src": "resources/css/auth.css",
     "isEntry": true
   },
