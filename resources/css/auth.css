@@ -1,7 +1,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     height: 100vh;
-    background-image: url("../../public/assets/images/nature.jpeg");
+    /* background-image: url("../../public/assets/images/nature.jpeg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,18 +9,18 @@ body {
 p1 {
     font-family: 'Manrope', sans-serif;
     font-size: 25px;
-    color: green;
+    color: rgba(22,163,184,255);
     text-align: center;
 }
 
 a:link {
-    color: green;
+    color: rgba(22,163,184,255);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: blue;
+    color: rgba(22,163,184,255);
     background-color: transparent;
     text-decoration: underline;
 }
@@ -37,7 +37,7 @@ img {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: green !important;
+    background-color: rgba(22,163,184,255) !important;
 }
 
 .login {

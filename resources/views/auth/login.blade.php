@@ -6,7 +6,7 @@
         <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
 
         <div class="card bg-glass">
-            <div class="card-body px-7 py-5 px-md-4">
+            <div class="card-body px-7 py-5 px-md-4 bg-light">
 
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
@@ -53,32 +53,27 @@
                             <!-- Remember me -->
                             <div class="form-group row">
                                 <div class="col-md-6">
-                                    <div class="form-check">
+                                    <div class="form-check d-flex align-items-center">
                                         <input class="form-check-input" type="checkbox" name="remember" id="remember"
                                             {{ old('remember') ? 'checked' : '' }}>
-                                        <label class="form-check-label" for="remember">
-                                            <small>
-                                                Remember Me
-                                            </small>
+                                        <label class="form-check-label mb-0 ms-2" for="remember">
+                                            <small>Remember Me</small>
                                         </label>
                                     </div>
                                 </div>
                                 @if (settings()->get('is_forgot_password') == true ?? false)
-                                <div class="col-md-6">
-                                    <div class="form-check">
-                                        <a href="{{ route('password.request') }}">
-                                            <small>
-                                                Forgot Password?
-                                            </small>
-                                        </a>
-                                    </div>
+                                <div class="col-md-6 text-md-end">
+                                    <a href="{{ route('password.request') }}">
+                                        <small>Forgot Password?</small>
+                                    </a>
                                 </div>
                                 @endif
                             </div>
 
+
                             <!-- Submit button -->
                             <div class="d-flex justify-content-around align-items-center mb-2">
-                                <button type="submit" class="btn btn-success btn-block">
+                                <button type="submit" class="btn btn-info btn-block">
                                     Log In
                                 </button>
                             </div>

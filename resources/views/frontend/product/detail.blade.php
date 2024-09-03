@@ -25,7 +25,7 @@
     </style>
     @endpush
 
-    <div class="container-fluid my-3 bg-light rounded-lg p-4">
+    <div class="container-fluid my-3 border rounded p-4">
         <div class="row">
             <div class="col-md-6">
                 <x-button-back></x-button-back>
