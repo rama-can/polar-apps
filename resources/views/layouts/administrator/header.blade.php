@@ -3,11 +3,11 @@
 <header class="header-navbar fixed">
     <div class="header-wrapper">
         <div class="header-left">
-            <div class="sidebar-toggle action-toggle"><i class="fas fa-bars"></i></div>
-
+            <div class="sidebar-toggle action-toggle me-2"><i class="fas fa-bars"></i></div>
         </div>
         <div class="header-content">
-            <div class="theme-switch-icon"></div>
+            <div class="theme-switch-icon border rounded-circle d-flex align-items-center justify-content-center bg-white" style="width: 35px; height: 35px;">
+            </div>
             {{-- <div class="notification dropdown">
                 <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="far fa-envelope"></i>
@@ -143,15 +143,15 @@
             </div> --}}
             <div class="dropdown dropdown-menu-end">
                 <a href="#" class="user-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                    <div class="label">
+                    <div class="label me-2">
                         <span></span>
                         <div>{{ Auth::user()->name ?? 'User' }}</div>
                     </div>
-                    <img src="{{ Auth::user()->image }}" 
-                        id="profileImage" 
-                        data-bs-toggle="dropdown" 
-                        aria-expanded="false" 
-                        alt="User Profile" 
+                    <img src="{{ Auth::user()->image }}"
+                        id="profileImage"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        alt="User Profile"
                         class="img-user rounded-circle border border-secondary bg-white"
                         style="width: 40px; height: 40px; object-fit: cover;">
                 </a>
