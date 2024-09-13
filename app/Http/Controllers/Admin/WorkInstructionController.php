@@ -107,8 +107,16 @@ class WorkInstructionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(string $product, WorkInstruction $workInstruction)
     {
-        //
+        $product = Product::findOrFail($product);
+        $workInstruction = WorkInstruction::findOrFail($workInstruction->id);
+
+        if(!$workInstruction || !$product){
+            abort(404);
+        }
+
+        $result = $this->workIns->destroy($workInstruction);
+        return response()->json($result);
     }
 }

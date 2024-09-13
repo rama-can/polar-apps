@@ -6,20 +6,26 @@
 @section('content')
 <div class="row">
     <div class="col-md-12">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
             <h4 class="fw-bold">{{ $title ?? '' }}</h4>
-            @can('create front-work-instructions')
-            @if ($workInstruction)
-                <button type="button" name="Edit" class="btn btn-warning btn-sm" id="editWorkIns">
-                    <i class="ti-pencil-alt"></i>
-                    Edit Data
-                </button>
-            @else
-                <button type="button" name="Add" class="btn btn-primary btn-sm" id="createWorkIns">
-                    <i class="ti-plus"></i>
-                    Tambah Data
-                </button>
-            @endif
+            @can('create work-instructions')
+            <div class="d-flex flex-wrap">
+                @if ($workInstruction)
+                    <button type="button" name="Edit" class="btn btn-warning btn-sm m-1 w-100 w-md-auto" id="editWorkIns">
+                        <i class="ti-pencil-alt"></i>
+                        Edit Data
+                    </button>
+                    <button type="button" name="Delete" class="btn btn-danger btn-sm m-1 w-100 w-md-auto" id="deleteWorkIns">
+                        <i class="ti-trash"></i>
+                        Delete
+                    </button>
+                @else
+                    <button type="button" name="Add" class="btn btn-primary btn-sm m-1 w-100 w-md-auto" id="createWorkIns">
+                        <i class="ti-plus"></i>
+                        Tambah Data
+                    </button>
+                @endif
+            </div>
             @endcan
         </div>
     </div>
@@ -58,6 +64,40 @@
                 $('#modalAction').modal('show');
             });
         });
+
+        $('body').on('click', '#deleteWorkIns', function() {
+                // var roleId = $(this).data('id');
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "Deleted data cannot be restored!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#82868',
+                    confirmButtonText: 'Yes, delete!',
+                    cancelButtonText: 'Cancel'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            type: "DELETE",
+                            url: "{{ route('admin.work-instructions.destroy', ['product' => $product->id, 'work_instruction' => $workInstruction->id]) }}",
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            },
+                            success: function(response) {
+                                showToast('success', response.message);
+                                location.reload();
+                            },
+                            error: function(response) {
+                                var errorMessage = response.responseJSON
+                                    .message;
+                                showToast('error',
+                                    errorMessage);
+                            }
+                        });
+                    }
+                });
+            });
         @endif
 
         // Save

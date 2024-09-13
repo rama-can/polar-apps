@@ -126,6 +126,11 @@ class WorkInstructionService
     public function destroy(WorkInstruction $workInstruction)
     {
         try {
+            // Delete file if exists
+            if ($workInstruction->file && Storage::disk('public')->exists(str_replace('/storage/', '', $workInstruction->file))) {
+                Storage::disk('public')->delete(str_replace('/storage/', '', $workInstruction->file));
+            }
+
             // delete workInstruction
             $workInstruction->delete();
 
